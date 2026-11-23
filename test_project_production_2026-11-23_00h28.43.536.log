@@ -1,0 +1,2115 @@
+17.1022 	INFO 	Loaded monitor calibration from ['2026_08_24 10:18']
+17.2171 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+19.6029 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+19.6030 	INFO 	OpenGL version supported by driver is 4..
+19.7926 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024C01454730>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024C014546D0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000024C01502260>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.7928 	EXP 	window1: backgroundImage = ''
+19.7929 	EXP 	window1: backgroundFit = 'none'
+20.7381 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+20.7381 	EXP 	window1: recordFrameIntervals = False
+20.9254 	EXP 	window1: recordFrameIntervals = True
+22.5926 	EXP 	window1: recordFrameIntervals = False
+22.5927 	EXP 	Screen (0) actual frame rate measured at 60.05Hz
+22.7545 	INFO 	keyboard.Keyboard is using ptb backend.
+22.7546 	EXP 	project_production: status = STARTED
+23.2427 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.035), italic=False, languageStyle='LTR', name='welcome_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.2556 	EXP 	Created fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='fix', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.2591 	EXP 	Created Study_word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Study_word', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.2903 	EXP 	Created ready_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.035), italic=False, languageStyle='LTR', name='ready_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.2952 	EXP 	Created fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='fix', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.2980 	EXP 	Created Study_word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Study_word', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.3545 	EXP 	Created distract_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='distract_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.3785 	EXP 	Created test_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.035), italic=False, languageStyle='LTR', name='test_intro_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.3876 	EXP 	Created fix2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='fix2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.3892 	EXP 	Created test_word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='test_word', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.4195 	EXP 	Created reminder = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='reminder', opacity=1, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='Y = seen before\nN = new', units='height', win=Window(...), wrapWidth=1)
+23.4578 	EXP 	Created goodbye_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='goodbye_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Done! Thank you for taking part.', units='height', win=Window(...), wrapWidth=1)
+0.0154 	INFO 	Keyboard events cleared
+0.0153 	EXP 	welcome_text: autoDraw = True
+14.1734 	EXP 	Device response: <KeyPress from None: t=13.99553119999473, value=space, duration=None>
+14.1736 	EXP 	Device response: <KeyPress from None: t=13.99553119999473, value=space, duration=0.1358468999969773>
+14.1857 	EXP 	Imported practice.xlsx as conditions, 6 conditions, 3 params
+14.1875 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'word': 'rope', 'condition': 'aloud', 'color': 'lime', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+14.2050 	DATA 	Keypress: space
+14.2073 	EXP 	welcome_text: autoDraw = False
+14.2073 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+14.2073 	EXP 	Study_word: height = np.float64(0.08)
+14.2073 	EXP 	Study_word: height = np.float64(0.08)
+14.2073 	EXP 	Study_word: height = np.float64(0.08)
+14.2073 	EXP 	Study_word: text = 'rope'
+14.2073 	EXP 	fix: autoDraw = True
+14.6747 	EXP 	Study_word: autoDraw = True
+14.7083 	EXP 	fix: autoDraw = False
+16.6597 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'word': 'nest', 'condition': 'silent', 'color': 'magenta', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+16.6788 	EXP 	Study_word: autoDraw = False
+16.6788 	EXP 	fix: autoDraw = False
+16.6788 	EXP 	Study_word: autoDraw = False
+16.6788 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+16.6788 	EXP 	Study_word: height = np.float64(0.08)
+16.6788 	EXP 	Study_word: height = np.float64(0.08)
+16.6788 	EXP 	Study_word: height = np.float64(0.08)
+16.6788 	EXP 	Study_word: text = 'nest'
+16.6788 	EXP 	fix: autoDraw = True
+17.1755 	EXP 	Study_word: autoDraw = True
+17.1917 	EXP 	fix: autoDraw = False
+19.1599 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'word': 'cup', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+19.1749 	EXP 	Study_word: autoDraw = False
+19.1749 	EXP 	fix: autoDraw = False
+19.1749 	EXP 	Study_word: autoDraw = False
+19.1749 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+19.1749 	EXP 	Study_word: height = np.float64(0.08)
+19.1749 	EXP 	Study_word: height = np.float64(0.08)
+19.1749 	EXP 	Study_word: height = np.float64(0.08)
+19.1749 	EXP 	Study_word: text = 'cup'
+19.1749 	EXP 	fix: autoDraw = True
+19.6748 	EXP 	fix: autoDraw = False
+19.6748 	EXP 	Study_word: autoDraw = True
+21.6590 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'word': 'brick', 'condition': 'aloud', 'color': 'lime', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+21.6747 	EXP 	Study_word: autoDraw = False
+21.6747 	EXP 	fix: autoDraw = False
+21.6747 	EXP 	Study_word: autoDraw = False
+21.6747 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+21.6747 	EXP 	Study_word: height = np.float64(0.08)
+21.6747 	EXP 	Study_word: height = np.float64(0.08)
+21.6747 	EXP 	Study_word: height = np.float64(0.08)
+21.6747 	EXP 	Study_word: text = 'brick'
+21.6747 	EXP 	fix: autoDraw = True
+22.1751 	EXP 	fix: autoDraw = False
+22.1751 	EXP 	Study_word: autoDraw = True
+24.1598 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'word': 'mango', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+24.1749 	EXP 	Study_word: autoDraw = False
+24.1749 	EXP 	fix: autoDraw = False
+24.1749 	EXP 	Study_word: autoDraw = False
+24.1749 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+24.1749 	EXP 	Study_word: height = np.float64(0.08)
+24.1749 	EXP 	Study_word: height = np.float64(0.08)
+24.1749 	EXP 	Study_word: height = np.float64(0.08)
+24.1749 	EXP 	Study_word: text = 'mango'
+24.1749 	EXP 	fix: autoDraw = True
+24.6751 	EXP 	fix: autoDraw = False
+24.6751 	EXP 	Study_word: autoDraw = True
+26.6600 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'word': 'shelf', 'condition': 'silent', 'color': 'magenta', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+26.6755 	EXP 	Study_word: autoDraw = False
+26.6755 	EXP 	fix: autoDraw = False
+26.6755 	EXP 	Study_word: autoDraw = False
+26.6755 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+26.6755 	EXP 	Study_word: height = np.float64(0.08)
+26.6755 	EXP 	Study_word: height = np.float64(0.08)
+26.6755 	EXP 	Study_word: height = np.float64(0.08)
+26.6755 	EXP 	Study_word: text = 'shelf'
+26.6755 	EXP 	fix: autoDraw = True
+27.1752 	EXP 	fix: autoDraw = False
+27.1752 	EXP 	Study_word: autoDraw = True
+29.1749 	INFO 	Keyboard events cleared
+29.1748 	EXP 	Study_word: autoDraw = False
+29.1748 	EXP 	fix: autoDraw = False
+29.1748 	EXP 	Study_word: autoDraw = False
+29.1748 	EXP 	ready_text: autoDraw = True
+33.6927 	EXP 	Device response: <KeyPress from None: t=33.69108889999916, value=space, duration=None>
+33.7415 	EXP 	Imported study_v1.xlsx as conditions, 45 conditions, 4 params
+33.7426 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'word': 'train', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+33.7479 	DATA 	Keypress: space
+33.7502 	EXP 	ready_text: autoDraw = False
+33.7502 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+33.7502 	EXP 	Study_word: height = np.float64(0.08)
+33.7502 	EXP 	Study_word: height = np.float64(0.08)
+33.7502 	EXP 	Study_word: height = np.float64(0.08)
+33.7502 	EXP 	Study_word: text = 'train'
+33.7502 	EXP 	fix: autoDraw = True
+33.8428 	EXP 	Device response: <KeyPress from None: t=33.69108889999916, value=space, duration=0.14069269999163225>
+34.2086 	EXP 	Study_word: autoDraw = True
+34.2584 	EXP 	fix: autoDraw = False
+36.1924 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'word': 'onion', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+36.2087 	EXP 	Study_word: autoDraw = False
+36.2087 	EXP 	fix: autoDraw = False
+36.2087 	EXP 	Study_word: autoDraw = False
+36.2087 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+36.2087 	EXP 	Study_word: height = np.float64(0.08)
+36.2087 	EXP 	Study_word: height = np.float64(0.08)
+36.2087 	EXP 	Study_word: height = np.float64(0.08)
+36.2087 	EXP 	Study_word: text = 'onion'
+36.2087 	EXP 	fix: autoDraw = True
+36.7088 	EXP 	fix: autoDraw = False
+36.7088 	EXP 	Study_word: autoDraw = True
+38.6918 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'word': 'violin', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+38.7078 	EXP 	Study_word: autoDraw = False
+38.7078 	EXP 	fix: autoDraw = False
+38.7078 	EXP 	Study_word: autoDraw = False
+38.7078 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+38.7078 	EXP 	Study_word: height = np.float64(0.08)
+38.7078 	EXP 	Study_word: height = np.float64(0.08)
+38.7078 	EXP 	Study_word: height = np.float64(0.08)
+38.7078 	EXP 	Study_word: text = 'violin'
+38.7078 	EXP 	fix: autoDraw = True
+39.2079 	EXP 	fix: autoDraw = False
+39.2079 	EXP 	Study_word: autoDraw = True
+41.1922 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'word': 'lamp', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+41.2082 	EXP 	Study_word: autoDraw = False
+41.2082 	EXP 	fix: autoDraw = False
+41.2082 	EXP 	Study_word: autoDraw = False
+41.2082 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+41.2082 	EXP 	Study_word: height = np.float64(0.08)
+41.2082 	EXP 	Study_word: height = np.float64(0.08)
+41.2082 	EXP 	Study_word: height = np.float64(0.08)
+41.2082 	EXP 	Study_word: text = 'lamp'
+41.2082 	EXP 	fix: autoDraw = True
+41.7082 	EXP 	fix: autoDraw = False
+41.7082 	EXP 	Study_word: autoDraw = True
+43.6916 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'word': 'kettle', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+43.7079 	EXP 	Study_word: autoDraw = False
+43.7079 	EXP 	fix: autoDraw = False
+43.7079 	EXP 	Study_word: autoDraw = False
+43.7079 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+43.7079 	EXP 	Study_word: height = np.float64(0.08)
+43.7079 	EXP 	Study_word: height = np.float64(0.08)
+43.7079 	EXP 	Study_word: height = np.float64(0.08)
+43.7079 	EXP 	Study_word: text = 'kettle'
+43.7079 	EXP 	fix: autoDraw = True
+44.2080 	EXP 	fix: autoDraw = False
+44.2080 	EXP 	Study_word: autoDraw = True
+46.1923 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'word': 'castle', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+46.2086 	EXP 	Study_word: autoDraw = False
+46.2086 	EXP 	fix: autoDraw = False
+46.2086 	EXP 	Study_word: autoDraw = False
+46.2086 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+46.2086 	EXP 	Study_word: height = np.float64(0.08)
+46.2086 	EXP 	Study_word: height = np.float64(0.08)
+46.2086 	EXP 	Study_word: height = np.float64(0.08)
+46.2086 	EXP 	Study_word: text = 'castle'
+46.2086 	EXP 	fix: autoDraw = True
+46.7081 	EXP 	fix: autoDraw = False
+46.7081 	EXP 	Study_word: autoDraw = True
+48.6927 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'word': 'pepper', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+48.7081 	EXP 	Study_word: autoDraw = False
+48.7081 	EXP 	fix: autoDraw = False
+48.7081 	EXP 	Study_word: autoDraw = False
+48.7081 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+48.7081 	EXP 	Study_word: height = np.float64(0.08)
+48.7081 	EXP 	Study_word: height = np.float64(0.08)
+48.7081 	EXP 	Study_word: height = np.float64(0.08)
+48.7081 	EXP 	Study_word: text = 'pepper'
+48.7081 	EXP 	fix: autoDraw = True
+49.2086 	EXP 	fix: autoDraw = False
+49.2086 	EXP 	Study_word: autoDraw = True
+51.1927 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'word': 'robot', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+51.2085 	EXP 	Study_word: autoDraw = False
+51.2085 	EXP 	fix: autoDraw = False
+51.2085 	EXP 	Study_word: autoDraw = False
+51.2085 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+51.2085 	EXP 	Study_word: height = np.float64(0.08)
+51.2085 	EXP 	Study_word: height = np.float64(0.08)
+51.2085 	EXP 	Study_word: height = np.float64(0.08)
+51.2085 	EXP 	Study_word: text = 'robot'
+51.2085 	EXP 	fix: autoDraw = True
+51.7083 	EXP 	fix: autoDraw = False
+51.7083 	EXP 	Study_word: autoDraw = True
+53.6926 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'word': 'eagle', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+53.7085 	EXP 	Study_word: autoDraw = False
+53.7085 	EXP 	fix: autoDraw = False
+53.7085 	EXP 	Study_word: autoDraw = False
+53.7085 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+53.7085 	EXP 	Study_word: height = np.float64(0.08)
+53.7085 	EXP 	Study_word: height = np.float64(0.08)
+53.7085 	EXP 	Study_word: height = np.float64(0.08)
+53.7085 	EXP 	Study_word: text = 'eagle'
+53.7085 	EXP 	fix: autoDraw = True
+54.2086 	EXP 	fix: autoDraw = False
+54.2086 	EXP 	Study_word: autoDraw = True
+56.1927 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'word': 'cactus', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+56.2082 	EXP 	Study_word: autoDraw = False
+56.2082 	EXP 	fix: autoDraw = False
+56.2082 	EXP 	Study_word: autoDraw = False
+56.2082 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+56.2082 	EXP 	Study_word: height = np.float64(0.08)
+56.2082 	EXP 	Study_word: height = np.float64(0.08)
+56.2082 	EXP 	Study_word: height = np.float64(0.08)
+56.2082 	EXP 	Study_word: text = 'cactus'
+56.2082 	EXP 	fix: autoDraw = True
+56.7086 	EXP 	fix: autoDraw = False
+56.7086 	EXP 	Study_word: autoDraw = True
+58.6928 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'word': 'dragon', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+58.7082 	EXP 	Study_word: autoDraw = False
+58.7082 	EXP 	fix: autoDraw = False
+58.7082 	EXP 	Study_word: autoDraw = False
+58.7082 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+58.7082 	EXP 	Study_word: height = np.float64(0.08)
+58.7082 	EXP 	Study_word: height = np.float64(0.08)
+58.7082 	EXP 	Study_word: height = np.float64(0.08)
+58.7082 	EXP 	Study_word: text = 'dragon'
+58.7082 	EXP 	fix: autoDraw = True
+59.2087 	EXP 	fix: autoDraw = False
+59.2087 	EXP 	Study_word: autoDraw = True
+61.1928 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'word': 'desk', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+61.2084 	EXP 	Study_word: autoDraw = False
+61.2084 	EXP 	fix: autoDraw = False
+61.2084 	EXP 	Study_word: autoDraw = False
+61.2084 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+61.2084 	EXP 	Study_word: height = np.float64(0.08)
+61.2084 	EXP 	Study_word: height = np.float64(0.08)
+61.2084 	EXP 	Study_word: height = np.float64(0.08)
+61.2084 	EXP 	Study_word: text = 'desk'
+61.2084 	EXP 	fix: autoDraw = True
+61.6916 	EXP 	Study_word: autoDraw = True
+61.7084 	EXP 	fix: autoDraw = False
+63.6760 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'word': 'coin', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+63.6926 	EXP 	Study_word: autoDraw = False
+63.6926 	EXP 	fix: autoDraw = False
+63.6926 	EXP 	Study_word: autoDraw = False
+63.6926 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+63.6926 	EXP 	Study_word: height = np.float64(0.08)
+63.6926 	EXP 	Study_word: height = np.float64(0.08)
+63.6926 	EXP 	Study_word: height = np.float64(0.08)
+63.6926 	EXP 	Study_word: text = 'coin'
+63.7080 	EXP 	fix: autoDraw = True
+64.2080 	EXP 	fix: autoDraw = False
+64.2080 	EXP 	Study_word: autoDraw = True
+66.1922 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'word': 'wagon', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+66.2084 	EXP 	Study_word: autoDraw = False
+66.2084 	EXP 	fix: autoDraw = False
+66.2084 	EXP 	Study_word: autoDraw = False
+66.2084 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+66.2084 	EXP 	Study_word: height = np.float64(0.08)
+66.2084 	EXP 	Study_word: height = np.float64(0.08)
+66.2084 	EXP 	Study_word: height = np.float64(0.08)
+66.2084 	EXP 	Study_word: text = 'wagon'
+66.2084 	EXP 	fix: autoDraw = True
+66.7080 	EXP 	fix: autoDraw = False
+66.7080 	EXP 	Study_word: autoDraw = True
+68.6920 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'word': 'whale', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+68.7083 	EXP 	Study_word: autoDraw = False
+68.7083 	EXP 	fix: autoDraw = False
+68.7083 	EXP 	Study_word: autoDraw = False
+68.7083 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+68.7083 	EXP 	Study_word: height = np.float64(0.08)
+68.7083 	EXP 	Study_word: height = np.float64(0.08)
+68.7083 	EXP 	Study_word: height = np.float64(0.08)
+68.7083 	EXP 	Study_word: text = 'whale'
+68.7083 	EXP 	fix: autoDraw = True
+69.2079 	EXP 	fix: autoDraw = False
+69.2079 	EXP 	Study_word: autoDraw = True
+71.1924 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'word': 'wallet', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+71.2085 	EXP 	Study_word: autoDraw = False
+71.2085 	EXP 	fix: autoDraw = False
+71.2085 	EXP 	Study_word: autoDraw = False
+71.2085 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+71.2085 	EXP 	Study_word: height = np.float64(0.08)
+71.2085 	EXP 	Study_word: height = np.float64(0.08)
+71.2085 	EXP 	Study_word: height = np.float64(0.08)
+71.2085 	EXP 	Study_word: text = 'wallet'
+71.2085 	EXP 	fix: autoDraw = True
+71.7081 	EXP 	fix: autoDraw = False
+71.7081 	EXP 	Study_word: autoDraw = True
+73.6923 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'word': 'needle', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+73.7081 	EXP 	Study_word: autoDraw = False
+73.7081 	EXP 	fix: autoDraw = False
+73.7081 	EXP 	Study_word: autoDraw = False
+73.7081 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+73.7081 	EXP 	Study_word: height = np.float64(0.08)
+73.7081 	EXP 	Study_word: height = np.float64(0.08)
+73.7081 	EXP 	Study_word: height = np.float64(0.08)
+73.7081 	EXP 	Study_word: text = 'needle'
+73.7081 	EXP 	fix: autoDraw = True
+74.2084 	EXP 	fix: autoDraw = False
+74.2084 	EXP 	Study_word: autoDraw = True
+76.1913 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'word': 'thumb', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+76.2076 	EXP 	Study_word: autoDraw = False
+76.2076 	EXP 	fix: autoDraw = False
+76.2076 	EXP 	Study_word: autoDraw = False
+76.2076 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+76.2076 	EXP 	Study_word: height = np.float64(0.08)
+76.2076 	EXP 	Study_word: height = np.float64(0.08)
+76.2076 	EXP 	Study_word: height = np.float64(0.08)
+76.2076 	EXP 	Study_word: text = 'thumb'
+76.2076 	EXP 	fix: autoDraw = True
+76.7079 	EXP 	fix: autoDraw = False
+76.7079 	EXP 	Study_word: autoDraw = True
+78.6921 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'word': 'horse', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+78.7082 	EXP 	Study_word: autoDraw = False
+78.7082 	EXP 	fix: autoDraw = False
+78.7082 	EXP 	Study_word: autoDraw = False
+78.7082 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+78.7082 	EXP 	Study_word: height = np.float64(0.08)
+78.7082 	EXP 	Study_word: height = np.float64(0.08)
+78.7082 	EXP 	Study_word: height = np.float64(0.08)
+78.7082 	EXP 	Study_word: text = 'horse'
+78.7082 	EXP 	fix: autoDraw = True
+79.2078 	EXP 	fix: autoDraw = False
+79.2078 	EXP 	Study_word: autoDraw = True
+81.1923 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'word': 'bridge', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+81.3539 	EXP 	Study_word: autoDraw = False
+81.3539 	EXP 	fix: autoDraw = False
+81.3539 	EXP 	Study_word: autoDraw = False
+81.3539 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+81.3539 	EXP 	Study_word: height = np.float64(0.08)
+81.3539 	EXP 	Study_word: height = np.float64(0.08)
+81.3539 	EXP 	Study_word: height = np.float64(0.08)
+81.3539 	EXP 	Study_word: text = 'bridge'
+81.3539 	EXP 	fix: autoDraw = True
+81.7080 	EXP 	Study_word: autoDraw = True
+81.8582 	EXP 	fix: autoDraw = False
+83.6919 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'word': 'puppet', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+83.7076 	EXP 	Study_word: autoDraw = False
+83.7076 	EXP 	fix: autoDraw = False
+83.7076 	EXP 	Study_word: autoDraw = False
+83.7076 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+83.7076 	EXP 	Study_word: height = np.float64(0.08)
+83.7076 	EXP 	Study_word: height = np.float64(0.08)
+83.7076 	EXP 	Study_word: height = np.float64(0.08)
+83.7076 	EXP 	Study_word: text = 'puppet'
+83.7076 	EXP 	fix: autoDraw = True
+84.2081 	EXP 	fix: autoDraw = False
+84.2081 	EXP 	Study_word: autoDraw = True
+86.1920 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'word': 'zebra', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+86.2075 	EXP 	Study_word: autoDraw = False
+86.2075 	EXP 	fix: autoDraw = False
+86.2075 	EXP 	Study_word: autoDraw = False
+86.2075 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+86.2075 	EXP 	Study_word: height = np.float64(0.08)
+86.2075 	EXP 	Study_word: height = np.float64(0.08)
+86.2075 	EXP 	Study_word: height = np.float64(0.08)
+86.2075 	EXP 	Study_word: text = 'zebra'
+86.2075 	EXP 	fix: autoDraw = True
+86.7076 	EXP 	fix: autoDraw = False
+86.7076 	EXP 	Study_word: autoDraw = True
+88.6917 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'word': 'statue', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+88.7076 	EXP 	Study_word: autoDraw = False
+88.7076 	EXP 	fix: autoDraw = False
+88.7076 	EXP 	Study_word: autoDraw = False
+88.7076 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+88.7076 	EXP 	Study_word: height = np.float64(0.08)
+88.7076 	EXP 	Study_word: height = np.float64(0.08)
+88.7076 	EXP 	Study_word: height = np.float64(0.08)
+88.7076 	EXP 	Study_word: text = 'statue'
+88.7076 	EXP 	fix: autoDraw = True
+89.2075 	EXP 	fix: autoDraw = False
+89.2075 	EXP 	Study_word: autoDraw = True
+91.1918 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'word': 'candle', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+91.2075 	EXP 	Study_word: autoDraw = False
+91.2075 	EXP 	fix: autoDraw = False
+91.2075 	EXP 	Study_word: autoDraw = False
+91.2075 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+91.2075 	EXP 	Study_word: height = np.float64(0.08)
+91.2075 	EXP 	Study_word: height = np.float64(0.08)
+91.2075 	EXP 	Study_word: height = np.float64(0.08)
+91.2075 	EXP 	Study_word: text = 'candle'
+91.2075 	EXP 	fix: autoDraw = True
+91.7079 	EXP 	fix: autoDraw = False
+91.7079 	EXP 	Study_word: autoDraw = True
+93.6925 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'word': 'drum', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+93.7078 	EXP 	Study_word: autoDraw = False
+93.7078 	EXP 	fix: autoDraw = False
+93.7078 	EXP 	Study_word: autoDraw = False
+93.7078 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+93.7078 	EXP 	Study_word: height = np.float64(0.08)
+93.7078 	EXP 	Study_word: height = np.float64(0.08)
+93.7078 	EXP 	Study_word: height = np.float64(0.08)
+93.7078 	EXP 	Study_word: text = 'drum'
+93.7078 	EXP 	fix: autoDraw = True
+94.2081 	EXP 	fix: autoDraw = False
+94.2081 	EXP 	Study_word: autoDraw = True
+96.1923 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'word': 'barrel', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+96.2078 	EXP 	Study_word: autoDraw = False
+96.2078 	EXP 	fix: autoDraw = False
+96.2078 	EXP 	Study_word: autoDraw = False
+96.2078 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+96.2078 	EXP 	Study_word: height = np.float64(0.08)
+96.2078 	EXP 	Study_word: height = np.float64(0.08)
+96.2078 	EXP 	Study_word: height = np.float64(0.08)
+96.2078 	EXP 	Study_word: text = 'barrel'
+96.2078 	EXP 	fix: autoDraw = True
+96.7075 	EXP 	fix: autoDraw = False
+96.7075 	EXP 	Study_word: autoDraw = True
+98.6921 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'word': 'ocean', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+98.7078 	EXP 	Study_word: autoDraw = False
+98.7078 	EXP 	fix: autoDraw = False
+98.7078 	EXP 	Study_word: autoDraw = False
+98.7078 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+98.7078 	EXP 	Study_word: height = np.float64(0.08)
+98.7078 	EXP 	Study_word: height = np.float64(0.08)
+98.7078 	EXP 	Study_word: height = np.float64(0.08)
+98.7078 	EXP 	Study_word: text = 'ocean'
+98.7078 	EXP 	fix: autoDraw = True
+99.2077 	EXP 	fix: autoDraw = False
+99.2077 	EXP 	Study_word: autoDraw = True
+101.1924 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'word': 'button', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+101.2076 	EXP 	Study_word: autoDraw = False
+101.2076 	EXP 	fix: autoDraw = False
+101.2076 	EXP 	Study_word: autoDraw = False
+101.2076 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+101.2076 	EXP 	Study_word: height = np.float64(0.08)
+101.2076 	EXP 	Study_word: height = np.float64(0.08)
+101.2076 	EXP 	Study_word: height = np.float64(0.08)
+101.2076 	EXP 	Study_word: text = 'button'
+101.2076 	EXP 	fix: autoDraw = True
+101.7080 	EXP 	fix: autoDraw = False
+101.7080 	EXP 	Study_word: autoDraw = True
+103.6916 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'word': 'rabbit', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+103.7076 	EXP 	Study_word: autoDraw = False
+103.7076 	EXP 	fix: autoDraw = False
+103.7076 	EXP 	Study_word: autoDraw = False
+103.7076 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+103.7076 	EXP 	Study_word: height = np.float64(0.08)
+103.7076 	EXP 	Study_word: height = np.float64(0.08)
+103.7076 	EXP 	Study_word: height = np.float64(0.08)
+103.7076 	EXP 	Study_word: text = 'rabbit'
+103.7076 	EXP 	fix: autoDraw = True
+104.2073 	EXP 	fix: autoDraw = False
+104.2073 	EXP 	Study_word: autoDraw = True
+106.1925 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'word': 'parrot', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+106.2075 	EXP 	Study_word: autoDraw = False
+106.2075 	EXP 	fix: autoDraw = False
+106.2075 	EXP 	Study_word: autoDraw = False
+106.2075 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+106.2075 	EXP 	Study_word: height = np.float64(0.08)
+106.2075 	EXP 	Study_word: height = np.float64(0.08)
+106.2075 	EXP 	Study_word: height = np.float64(0.08)
+106.2075 	EXP 	Study_word: text = 'parrot'
+106.2075 	EXP 	fix: autoDraw = True
+106.7077 	EXP 	fix: autoDraw = False
+106.7077 	EXP 	Study_word: autoDraw = True
+108.6922 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'word': 'towel', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+108.7076 	EXP 	Study_word: autoDraw = False
+108.7076 	EXP 	fix: autoDraw = False
+108.7076 	EXP 	Study_word: autoDraw = False
+108.7076 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+108.7076 	EXP 	Study_word: height = np.float64(0.08)
+108.7076 	EXP 	Study_word: height = np.float64(0.08)
+108.7076 	EXP 	Study_word: height = np.float64(0.08)
+108.7076 	EXP 	Study_word: text = 'towel'
+108.7076 	EXP 	fix: autoDraw = True
+109.2079 	EXP 	fix: autoDraw = False
+109.2079 	EXP 	Study_word: autoDraw = True
+111.1921 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'word': 'fork', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+111.2073 	EXP 	Study_word: autoDraw = False
+111.2073 	EXP 	fix: autoDraw = False
+111.2073 	EXP 	Study_word: autoDraw = False
+111.2073 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+111.2073 	EXP 	Study_word: height = np.float64(0.08)
+111.2073 	EXP 	Study_word: height = np.float64(0.08)
+111.2073 	EXP 	Study_word: height = np.float64(0.08)
+111.2073 	EXP 	Study_word: text = 'fork'
+111.2073 	EXP 	fix: autoDraw = True
+111.7076 	EXP 	fix: autoDraw = False
+111.7076 	EXP 	Study_word: autoDraw = True
+113.6913 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'word': 'engine', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+113.7073 	EXP 	Study_word: autoDraw = False
+113.7073 	EXP 	fix: autoDraw = False
+113.7073 	EXP 	Study_word: autoDraw = False
+113.7073 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+113.7073 	EXP 	Study_word: height = np.float64(0.08)
+113.7073 	EXP 	Study_word: height = np.float64(0.08)
+113.7073 	EXP 	Study_word: height = np.float64(0.08)
+113.7073 	EXP 	Study_word: text = 'engine'
+113.7073 	EXP 	fix: autoDraw = True
+114.2078 	EXP 	fix: autoDraw = False
+114.2078 	EXP 	Study_word: autoDraw = True
+116.1920 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'word': 'sock', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+116.2081 	EXP 	Study_word: autoDraw = False
+116.2081 	EXP 	fix: autoDraw = False
+116.2081 	EXP 	Study_word: autoDraw = False
+116.2081 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+116.2081 	EXP 	Study_word: height = np.float64(0.08)
+116.2081 	EXP 	Study_word: height = np.float64(0.08)
+116.2081 	EXP 	Study_word: height = np.float64(0.08)
+116.2081 	EXP 	Study_word: text = 'sock'
+116.2081 	EXP 	fix: autoDraw = True
+116.7076 	EXP 	fix: autoDraw = False
+116.7076 	EXP 	Study_word: autoDraw = True
+118.6915 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'word': 'chair', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+118.7073 	EXP 	Study_word: autoDraw = False
+118.7073 	EXP 	fix: autoDraw = False
+118.7073 	EXP 	Study_word: autoDraw = False
+118.7073 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+118.7073 	EXP 	Study_word: height = np.float64(0.08)
+118.7073 	EXP 	Study_word: height = np.float64(0.08)
+118.7073 	EXP 	Study_word: height = np.float64(0.08)
+118.7073 	EXP 	Study_word: text = 'chair'
+118.7073 	EXP 	fix: autoDraw = True
+119.2074 	EXP 	fix: autoDraw = False
+119.2074 	EXP 	Study_word: autoDraw = True
+121.1916 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'word': 'lemon', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+121.2076 	EXP 	Study_word: autoDraw = False
+121.2076 	EXP 	fix: autoDraw = False
+121.2076 	EXP 	Study_word: autoDraw = False
+121.2076 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+121.2076 	EXP 	Study_word: height = np.float64(0.08)
+121.2076 	EXP 	Study_word: height = np.float64(0.08)
+121.2076 	EXP 	Study_word: height = np.float64(0.08)
+121.2076 	EXP 	Study_word: text = 'lemon'
+121.2076 	EXP 	fix: autoDraw = True
+121.7076 	EXP 	fix: autoDraw = False
+121.7076 	EXP 	Study_word: autoDraw = True
+123.6919 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'word': 'oven', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+123.7072 	EXP 	Study_word: autoDraw = False
+123.7072 	EXP 	fix: autoDraw = False
+123.7072 	EXP 	Study_word: autoDraw = False
+123.7072 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+123.7072 	EXP 	Study_word: height = np.float64(0.08)
+123.7072 	EXP 	Study_word: height = np.float64(0.08)
+123.7072 	EXP 	Study_word: height = np.float64(0.08)
+123.7072 	EXP 	Study_word: text = 'oven'
+123.7072 	EXP 	fix: autoDraw = True
+124.2075 	EXP 	fix: autoDraw = False
+124.2075 	EXP 	Study_word: autoDraw = True
+126.1924 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'word': 'monkey', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+126.2074 	EXP 	Study_word: autoDraw = False
+126.2074 	EXP 	fix: autoDraw = False
+126.2074 	EXP 	Study_word: autoDraw = False
+126.2074 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+126.2074 	EXP 	Study_word: height = np.float64(0.08)
+126.2074 	EXP 	Study_word: height = np.float64(0.08)
+126.2074 	EXP 	Study_word: height = np.float64(0.08)
+126.2074 	EXP 	Study_word: text = 'monkey'
+126.2074 	EXP 	fix: autoDraw = True
+126.7076 	EXP 	fix: autoDraw = False
+126.7076 	EXP 	Study_word: autoDraw = True
+128.6912 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'word': 'cloud', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+128.7077 	EXP 	Study_word: autoDraw = False
+128.7077 	EXP 	fix: autoDraw = False
+128.7077 	EXP 	Study_word: autoDraw = False
+128.7077 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+128.7077 	EXP 	Study_word: height = np.float64(0.08)
+128.7077 	EXP 	Study_word: height = np.float64(0.08)
+128.7077 	EXP 	Study_word: height = np.float64(0.08)
+128.7077 	EXP 	Study_word: text = 'cloud'
+128.7077 	EXP 	fix: autoDraw = True
+129.2073 	EXP 	fix: autoDraw = False
+129.2073 	EXP 	Study_word: autoDraw = True
+131.1922 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'word': 'feather', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+131.2075 	EXP 	Study_word: autoDraw = False
+131.2075 	EXP 	fix: autoDraw = False
+131.2075 	EXP 	Study_word: autoDraw = False
+131.2075 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+131.2075 	EXP 	Study_word: height = np.float64(0.08)
+131.2075 	EXP 	Study_word: height = np.float64(0.08)
+131.2075 	EXP 	Study_word: height = np.float64(0.08)
+131.2075 	EXP 	Study_word: text = 'feather'
+131.2075 	EXP 	fix: autoDraw = True
+131.7075 	EXP 	fix: autoDraw = False
+131.7075 	EXP 	Study_word: autoDraw = True
+133.6917 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'word': 'ladder', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+133.7073 	EXP 	Study_word: autoDraw = False
+133.7073 	EXP 	fix: autoDraw = False
+133.7073 	EXP 	Study_word: autoDraw = False
+133.7073 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+133.7073 	EXP 	Study_word: height = np.float64(0.08)
+133.7073 	EXP 	Study_word: height = np.float64(0.08)
+133.7073 	EXP 	Study_word: height = np.float64(0.08)
+133.7073 	EXP 	Study_word: text = 'ladder'
+133.7073 	EXP 	fix: autoDraw = True
+134.2073 	EXP 	fix: autoDraw = False
+134.2073 	EXP 	Study_word: autoDraw = True
+136.1912 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'word': 'turtle', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+136.2071 	EXP 	Study_word: autoDraw = False
+136.2071 	EXP 	fix: autoDraw = False
+136.2071 	EXP 	Study_word: autoDraw = False
+136.2071 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+136.2071 	EXP 	Study_word: height = np.float64(0.08)
+136.2071 	EXP 	Study_word: height = np.float64(0.08)
+136.2071 	EXP 	Study_word: height = np.float64(0.08)
+136.2071 	EXP 	Study_word: text = 'turtle'
+136.2071 	EXP 	fix: autoDraw = True
+136.7078 	EXP 	fix: autoDraw = False
+136.7078 	EXP 	Study_word: autoDraw = True
+138.6919 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'word': 'pencil', 'set': 'C', 'condition': 'silent', 'color': 'magenta', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+138.7074 	EXP 	Study_word: autoDraw = False
+138.7074 	EXP 	fix: autoDraw = False
+138.7074 	EXP 	Study_word: autoDraw = False
+138.7074 	EXP 	Study_word: foreColor = <psychopy.colors.Color: magenta, alpha=1.0>
+138.7074 	EXP 	Study_word: height = np.float64(0.08)
+138.7074 	EXP 	Study_word: height = np.float64(0.08)
+138.7074 	EXP 	Study_word: height = np.float64(0.08)
+138.7074 	EXP 	Study_word: text = 'pencil'
+138.7074 	EXP 	fix: autoDraw = True
+139.2071 	EXP 	fix: autoDraw = False
+139.2071 	EXP 	Study_word: autoDraw = True
+141.1913 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'word': 'guitar', 'set': 'A', 'condition': 'aloud', 'color': 'lime', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+141.2071 	EXP 	Study_word: autoDraw = False
+141.2071 	EXP 	fix: autoDraw = False
+141.2071 	EXP 	Study_word: autoDraw = False
+141.2071 	EXP 	Study_word: foreColor = <psychopy.colors.Color: lime, alpha=1.0>
+141.2071 	EXP 	Study_word: height = np.float64(0.08)
+141.2071 	EXP 	Study_word: height = np.float64(0.08)
+141.2071 	EXP 	Study_word: height = np.float64(0.08)
+141.2071 	EXP 	Study_word: text = 'guitar'
+141.2071 	EXP 	fix: autoDraw = True
+141.7074 	EXP 	fix: autoDraw = False
+141.7074 	EXP 	Study_word: autoDraw = True
+143.6915 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'word': 'carpet', 'set': 'B', 'condition': 'mouthed', 'color': 'yellow', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+143.7075 	EXP 	Study_word: autoDraw = False
+143.7075 	EXP 	fix: autoDraw = False
+143.7075 	EXP 	Study_word: autoDraw = False
+143.7075 	EXP 	Study_word: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+143.7075 	EXP 	Study_word: height = np.float64(0.08)
+143.7075 	EXP 	Study_word: height = np.float64(0.08)
+143.7075 	EXP 	Study_word: height = np.float64(0.08)
+143.7075 	EXP 	Study_word: text = 'carpet'
+143.7075 	EXP 	fix: autoDraw = True
+144.2074 	EXP 	fix: autoDraw = False
+144.2074 	EXP 	Study_word: autoDraw = True
+146.2071 	EXP 	Study_word: autoDraw = False
+146.2071 	EXP 	fix: autoDraw = False
+146.2071 	EXP 	Study_word: autoDraw = False
+146.2071 	EXP 	distract_text: autoDraw = True
+151.2070 	INFO 	Keyboard events cleared
+151.2068 	EXP 	distract_text: autoDraw = False
+151.2068 	EXP 	distract_text: autoDraw = False
+151.2068 	EXP 	test_intro_text: autoDraw = True
+161.9746 	EXP 	Device response: <KeyPress from None: t=161.96825989999343, value=space, duration=None>
+161.9998 	EXP 	Imported test_v1.xlsx as conditions, 90 conditions, 4 params
+162.0015 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'word': 'lion', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+162.0082 	DATA 	Keypress: space
+162.0104 	EXP 	test_intro_text: autoDraw = False
+162.0104 	EXP 	test_word: height = np.float64(0.08)
+162.0104 	EXP 	test_word: height = np.float64(0.08)
+162.0104 	EXP 	test_word: height = np.float64(0.08)
+162.0104 	EXP 	test_word: text = 'lion'
+162.0104 	EXP 	fix2: autoDraw = True
+162.0914 	EXP 	Device response: <KeyPress from None: t=161.96825989999343, value=space, duration=0.11129940001410432>
+162.4906 	INFO 	Keyboard events cleared
+162.4904 	EXP 	test_word: autoDraw = True
+162.4904 	EXP 	reminder: autoDraw = True
+162.5237 	EXP 	fix2: autoDraw = False
+165.2074 	EXP 	Device response: <KeyPress from None: t=165.19909489998827, value=right, duration=None>
+165.2092 	DATA 	Keypress: right
+165.3244 	EXP 	Device response: <KeyPress from None: t=165.19909489998827, value=right, duration=0.11738940002396703>
+166.8742 	EXP 	Device response: <KeyPress from None: t=166.87208510001074, value=n, duration=None>
+166.8746 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'word': 'eagle', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+166.8805 	DATA 	Keypress: n
+166.8907 	EXP 	fix2: autoDraw = False
+166.8907 	EXP 	test_word: autoDraw = False
+166.8907 	EXP 	reminder: autoDraw = False
+166.8907 	EXP 	test_word: height = np.float64(0.08)
+166.8907 	EXP 	test_word: height = np.float64(0.08)
+166.8907 	EXP 	test_word: height = np.float64(0.08)
+166.8907 	EXP 	test_word: text = 'eagle'
+166.8907 	EXP 	fix2: autoDraw = True
+167.0245 	EXP 	Device response: <KeyPress from None: t=166.87208510001074, value=n, duration=0.14407369997934438>
+167.3735 	INFO 	Keyboard events cleared
+167.3734 	EXP 	test_word: autoDraw = True
+167.3734 	EXP 	reminder: autoDraw = True
+167.3906 	EXP 	fix2: autoDraw = False
+169.2746 	EXP 	Device response: <KeyPress from None: t=169.26876969999284, value=y, duration=None>
+169.2750 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'word': 'desk', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+169.2802 	DATA 	Keypress: y
+169.2905 	EXP 	fix2: autoDraw = False
+169.2905 	EXP 	test_word: autoDraw = False
+169.2905 	EXP 	reminder: autoDraw = False
+169.2905 	EXP 	test_word: height = np.float64(0.08)
+169.2905 	EXP 	test_word: height = np.float64(0.08)
+169.2905 	EXP 	test_word: height = np.float64(0.08)
+169.2905 	EXP 	test_word: text = 'desk'
+169.2905 	EXP 	fix2: autoDraw = True
+169.4413 	EXP 	Device response: <KeyPress from None: t=169.26876969999284, value=y, duration=0.16424430001643486>
+169.7742 	INFO 	Keyboard events cleared
+169.7741 	EXP 	test_word: autoDraw = True
+169.7741 	EXP 	reminder: autoDraw = True
+169.7908 	EXP 	fix2: autoDraw = False
+170.8742 	EXP 	Device response: <KeyPress from None: t=170.86080819999916, value=n, duration=None>
+170.8745 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'word': 'jungle', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+170.8853 	DATA 	Keypress: n
+170.8903 	EXP 	fix2: autoDraw = False
+170.8903 	EXP 	test_word: autoDraw = False
+170.8903 	EXP 	reminder: autoDraw = False
+170.8903 	EXP 	test_word: height = np.float64(0.08)
+170.8903 	EXP 	test_word: height = np.float64(0.08)
+170.8903 	EXP 	test_word: height = np.float64(0.08)
+170.8903 	EXP 	test_word: text = 'jungle'
+170.8903 	EXP 	fix2: autoDraw = True
+170.9912 	EXP 	Device response: <KeyPress from None: t=170.86080819999916, value=n, duration=0.1187023000093177>
+171.3737 	INFO 	Keyboard events cleared
+171.3735 	EXP 	test_word: autoDraw = True
+171.3735 	EXP 	reminder: autoDraw = True
+171.3908 	EXP 	fix2: autoDraw = False
+172.0749 	EXP 	Device response: <KeyPress from None: t=172.06576659998973, value=n, duration=None>
+172.0754 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'word': 'trumpet', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+172.0816 	DATA 	Keypress: n
+172.0903 	EXP 	fix2: autoDraw = False
+172.0903 	EXP 	test_word: autoDraw = False
+172.0903 	EXP 	reminder: autoDraw = False
+172.0903 	EXP 	test_word: height = np.float64(0.08)
+172.0903 	EXP 	test_word: height = np.float64(0.08)
+172.0903 	EXP 	test_word: height = np.float64(0.08)
+172.0903 	EXP 	test_word: text = 'trumpet'
+172.0903 	EXP 	fix2: autoDraw = True
+172.1912 	EXP 	Device response: <KeyPress from None: t=172.06576659998973, value=n, duration=0.11040970002068207>
+172.5910 	INFO 	Keyboard events cleared
+172.5908 	EXP 	fix2: autoDraw = False
+172.5908 	EXP 	test_word: autoDraw = True
+172.5908 	EXP 	reminder: autoDraw = True
+173.2920 	EXP 	Device response: <KeyPress from None: t=173.2793612999958, value=n, duration=None>
+173.2924 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'word': 'needle', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+173.2978 	DATA 	Keypress: n
+173.3072 	EXP 	fix2: autoDraw = False
+173.3072 	EXP 	test_word: autoDraw = False
+173.3072 	EXP 	reminder: autoDraw = False
+173.3072 	EXP 	test_word: height = np.float64(0.08)
+173.3072 	EXP 	test_word: height = np.float64(0.08)
+173.3072 	EXP 	test_word: height = np.float64(0.08)
+173.3072 	EXP 	test_word: text = 'needle'
+173.3072 	EXP 	fix2: autoDraw = True
+173.3911 	EXP 	Device response: <KeyPress from None: t=173.2793612999958, value=n, duration=0.0968087000073865>
+173.8072 	INFO 	Keyboard events cleared
+173.8071 	EXP 	fix2: autoDraw = False
+173.8071 	EXP 	test_word: autoDraw = True
+173.8071 	EXP 	reminder: autoDraw = True
+174.7263 	DATA 	Keypress: y
+174.7417 	EXP 	Device response: <KeyPress from None: t=174.724870200007, value=y, duration=None>
+174.7422 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'word': 'zebra', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+174.7571 	EXP 	fix2: autoDraw = False
+174.7571 	EXP 	test_word: autoDraw = False
+174.7571 	EXP 	reminder: autoDraw = False
+174.7571 	EXP 	test_word: height = np.float64(0.08)
+174.7571 	EXP 	test_word: height = np.float64(0.08)
+174.7571 	EXP 	test_word: height = np.float64(0.08)
+174.7571 	EXP 	test_word: text = 'zebra'
+174.7571 	EXP 	fix2: autoDraw = True
+174.8575 	EXP 	Device response: <KeyPress from None: t=174.724870200007, value=y, duration=0.12407279998296872>
+175.2572 	INFO 	Keyboard events cleared
+175.2570 	EXP 	fix2: autoDraw = False
+175.2570 	EXP 	test_word: autoDraw = True
+175.2570 	EXP 	reminder: autoDraw = True
+176.0249 	EXP 	Device response: <KeyPress from None: t=176.01186020000023, value=y, duration=None>
+176.0254 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'word': 'pencil', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+176.0311 	DATA 	Keypress: y
+176.0405 	EXP 	fix2: autoDraw = False
+176.0405 	EXP 	test_word: autoDraw = False
+176.0405 	EXP 	reminder: autoDraw = False
+176.0405 	EXP 	test_word: height = np.float64(0.08)
+176.0405 	EXP 	test_word: height = np.float64(0.08)
+176.0405 	EXP 	test_word: height = np.float64(0.08)
+176.0405 	EXP 	test_word: text = 'pencil'
+176.0405 	EXP 	fix2: autoDraw = True
+176.1573 	EXP 	Device response: <KeyPress from None: t=176.01186020000023, value=y, duration=0.13965219998499379>
+176.5405 	INFO 	Keyboard events cleared
+176.5403 	EXP 	fix2: autoDraw = False
+176.5403 	EXP 	test_word: autoDraw = True
+176.5403 	EXP 	reminder: autoDraw = True
+177.2249 	EXP 	Device response: <KeyPress from None: t=177.21509660000447, value=n, duration=None>
+177.2253 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'word': 'helmet', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+177.2308 	DATA 	Keypress: n
+177.2401 	EXP 	fix2: autoDraw = False
+177.2401 	EXP 	test_word: autoDraw = False
+177.2401 	EXP 	reminder: autoDraw = False
+177.2401 	EXP 	test_word: height = np.float64(0.08)
+177.2401 	EXP 	test_word: height = np.float64(0.08)
+177.2401 	EXP 	test_word: height = np.float64(0.08)
+177.2401 	EXP 	test_word: text = 'helmet'
+177.2401 	EXP 	fix2: autoDraw = True
+177.3408 	EXP 	Device response: <KeyPress from None: t=177.21509660000447, value=n, duration=0.12261689998558722>
+177.7407 	INFO 	Keyboard events cleared
+177.7406 	EXP 	fix2: autoDraw = False
+177.7406 	EXP 	test_word: autoDraw = True
+177.7406 	EXP 	reminder: autoDraw = True
+178.4406 	EXP 	Device response: <KeyPress from None: t=178.4286446000042, value=n, duration=None>
+178.4409 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'word': 'statue', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+178.4463 	DATA 	Keypress: n
+178.4566 	EXP 	fix2: autoDraw = False
+178.4566 	EXP 	test_word: autoDraw = False
+178.4566 	EXP 	reminder: autoDraw = False
+178.4566 	EXP 	test_word: height = np.float64(0.08)
+178.4566 	EXP 	test_word: height = np.float64(0.08)
+178.4566 	EXP 	test_word: height = np.float64(0.08)
+178.4566 	EXP 	test_word: text = 'statue'
+178.4566 	EXP 	fix2: autoDraw = True
+178.5907 	EXP 	Device response: <KeyPress from None: t=178.4286446000042, value=n, duration=0.15986559999873862>
+178.9409 	INFO 	Keyboard events cleared
+178.9408 	EXP 	test_word: autoDraw = True
+178.9408 	EXP 	reminder: autoDraw = True
+178.9571 	EXP 	fix2: autoDraw = False
+179.6414 	EXP 	Device response: <KeyPress from None: t=179.62695800000802, value=y, duration=None>
+179.6417 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'word': 'salad', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+179.6472 	DATA 	Keypress: y
+179.6572 	EXP 	fix2: autoDraw = False
+179.6572 	EXP 	test_word: autoDraw = False
+179.6572 	EXP 	reminder: autoDraw = False
+179.6572 	EXP 	test_word: height = np.float64(0.08)
+179.6572 	EXP 	test_word: height = np.float64(0.08)
+179.6572 	EXP 	test_word: height = np.float64(0.08)
+179.6572 	EXP 	test_word: text = 'salad'
+179.6572 	EXP 	fix2: autoDraw = True
+179.7916 	EXP 	Device response: <KeyPress from None: t=179.62695800000802, value=y, duration=0.15474369999719784>
+180.1406 	INFO 	Keyboard events cleared
+180.1404 	EXP 	test_word: autoDraw = True
+180.1404 	EXP 	reminder: autoDraw = True
+180.1573 	EXP 	fix2: autoDraw = False
+180.7587 	EXP 	Device response: <KeyPress from None: t=180.75798990001203, value=n, duration=None>
+180.7593 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'word': 'grape', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+180.7702 	DATA 	Keypress: n
+180.7736 	EXP 	fix2: autoDraw = False
+180.7736 	EXP 	test_word: autoDraw = False
+180.7736 	EXP 	reminder: autoDraw = False
+180.7736 	EXP 	test_word: height = np.float64(0.08)
+180.7736 	EXP 	test_word: height = np.float64(0.08)
+180.7736 	EXP 	test_word: height = np.float64(0.08)
+180.7736 	EXP 	test_word: text = 'grape'
+180.7736 	EXP 	fix2: autoDraw = True
+180.8914 	EXP 	Device response: <KeyPress from None: t=180.75798990001203, value=n, duration=0.11912819999270141>
+181.2736 	INFO 	Keyboard events cleared
+181.2734 	EXP 	fix2: autoDraw = False
+181.2734 	EXP 	test_word: autoDraw = True
+181.2734 	EXP 	reminder: autoDraw = True
+182.4749 	EXP 	Device response: <KeyPress from None: t=182.46935420000227, value=n, duration=None>
+182.4753 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'word': 'cloud', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+182.4814 	DATA 	Keypress: n
+182.4905 	EXP 	fix2: autoDraw = False
+182.4905 	EXP 	test_word: autoDraw = False
+182.4905 	EXP 	reminder: autoDraw = False
+182.4905 	EXP 	test_word: height = np.float64(0.08)
+182.4905 	EXP 	test_word: height = np.float64(0.08)
+182.4905 	EXP 	test_word: height = np.float64(0.08)
+182.4905 	EXP 	test_word: text = 'cloud'
+182.4905 	EXP 	fix2: autoDraw = True
+182.5907 	EXP 	Device response: <KeyPress from None: t=182.46935420000227, value=n, duration=0.11772690000361763>
+182.9905 	INFO 	Keyboard events cleared
+182.9903 	EXP 	fix2: autoDraw = False
+182.9903 	EXP 	test_word: autoDraw = True
+182.9903 	EXP 	reminder: autoDraw = True
+183.8945 	DATA 	Keypress: y
+183.9070 	EXP 	Device response: <KeyPress from None: t=183.89312029999564, value=y, duration=None>
+183.9073 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'word': 'market', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+183.9236 	EXP 	fix2: autoDraw = False
+183.9236 	EXP 	test_word: autoDraw = False
+183.9236 	EXP 	reminder: autoDraw = False
+183.9236 	EXP 	test_word: height = np.float64(0.08)
+183.9236 	EXP 	test_word: height = np.float64(0.08)
+183.9236 	EXP 	test_word: height = np.float64(0.08)
+183.9236 	EXP 	test_word: text = 'market'
+183.9236 	EXP 	fix2: autoDraw = True
+184.0246 	EXP 	Device response: <KeyPress from None: t=183.89312029999564, value=y, duration=0.11745700001483783>
+184.4070 	INFO 	Keyboard events cleared
+184.4068 	EXP 	test_word: autoDraw = True
+184.4068 	EXP 	reminder: autoDraw = True
+184.4236 	EXP 	fix2: autoDraw = False
+185.0739 	EXP 	Device response: <KeyPress from None: t=185.0633799000061, value=n, duration=None>
+185.0744 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'word': 'sock', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+185.0795 	DATA 	Keypress: n
+185.0906 	EXP 	fix2: autoDraw = False
+185.0906 	EXP 	test_word: autoDraw = False
+185.0906 	EXP 	reminder: autoDraw = False
+185.0906 	EXP 	test_word: height = np.float64(0.08)
+185.0906 	EXP 	test_word: height = np.float64(0.08)
+185.0906 	EXP 	test_word: height = np.float64(0.08)
+185.0906 	EXP 	test_word: text = 'sock'
+185.0906 	EXP 	fix2: autoDraw = True
+185.1575 	EXP 	Device response: <KeyPress from None: t=185.0633799000061, value=n, duration=0.08506349998060614>
+185.5739 	INFO 	Keyboard events cleared
+185.5737 	EXP 	test_word: autoDraw = True
+185.5737 	EXP 	reminder: autoDraw = True
+185.5902 	EXP 	fix2: autoDraw = False
+186.2574 	EXP 	Device response: <KeyPress from None: t=186.25434990000213, value=y, duration=None>
+186.2578 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'word': 'spoon', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+186.2625 	DATA 	Keypress: y
+186.2738 	EXP 	fix2: autoDraw = False
+186.2738 	EXP 	test_word: autoDraw = False
+186.2738 	EXP 	reminder: autoDraw = False
+186.2738 	EXP 	test_word: height = np.float64(0.08)
+186.2738 	EXP 	test_word: height = np.float64(0.08)
+186.2738 	EXP 	test_word: height = np.float64(0.08)
+186.2738 	EXP 	test_word: text = 'spoon'
+186.2738 	EXP 	fix2: autoDraw = True
+186.4240 	EXP 	Device response: <KeyPress from None: t=186.25434990000213, value=y, duration=0.1630375999957323>
+186.7575 	INFO 	Keyboard events cleared
+186.7573 	EXP 	test_word: autoDraw = True
+186.7573 	EXP 	reminder: autoDraw = True
+186.7739 	EXP 	fix2: autoDraw = False
+187.6590 	DATA 	Keypress: n
+187.6739 	EXP 	Device response: <KeyPress from None: t=187.65805570001248, value=n, duration=None>
+187.6743 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'word': 'lemon', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+187.6901 	EXP 	fix2: autoDraw = False
+187.6901 	EXP 	test_word: autoDraw = False
+187.6901 	EXP 	reminder: autoDraw = False
+187.6901 	EXP 	test_word: height = np.float64(0.08)
+187.6901 	EXP 	test_word: height = np.float64(0.08)
+187.6901 	EXP 	test_word: height = np.float64(0.08)
+187.6901 	EXP 	test_word: text = 'lemon'
+187.6901 	EXP 	fix2: autoDraw = True
+187.7740 	EXP 	Device response: <KeyPress from None: t=187.65805570001248, value=n, duration=0.10159659999771975>
+188.1742 	INFO 	Keyboard events cleared
+188.1740 	EXP 	test_word: autoDraw = True
+188.1740 	EXP 	reminder: autoDraw = True
+188.1904 	EXP 	fix2: autoDraw = False
+189.1438 	DATA 	Keypress: y
+189.1577 	EXP 	Device response: <KeyPress from None: t=189.14281389999087, value=y, duration=None>
+189.1581 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'word': 'saddle', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+189.1735 	EXP 	fix2: autoDraw = False
+189.1735 	EXP 	test_word: autoDraw = False
+189.1735 	EXP 	reminder: autoDraw = False
+189.1735 	EXP 	test_word: height = np.float64(0.08)
+189.1735 	EXP 	test_word: height = np.float64(0.08)
+189.1735 	EXP 	test_word: height = np.float64(0.08)
+189.1735 	EXP 	test_word: text = 'saddle'
+189.1735 	EXP 	fix2: autoDraw = True
+189.2413 	EXP 	Device response: <KeyPress from None: t=189.14281389999087, value=y, duration=0.09121800001594238>
+189.6570 	INFO 	Keyboard events cleared
+189.6568 	EXP 	test_word: autoDraw = True
+189.6568 	EXP 	reminder: autoDraw = True
+189.6739 	EXP 	fix2: autoDraw = False
+190.4586 	EXP 	Device response: <KeyPress from None: t=190.44689309998648, value=n, duration=None>
+190.4591 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'word': 'forest', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+190.4648 	DATA 	Keypress: n
+190.4740 	EXP 	fix2: autoDraw = False
+190.4740 	EXP 	test_word: autoDraw = False
+190.4740 	EXP 	reminder: autoDraw = False
+190.4740 	EXP 	test_word: height = np.float64(0.08)
+190.4740 	EXP 	test_word: height = np.float64(0.08)
+190.4740 	EXP 	test_word: height = np.float64(0.08)
+190.4740 	EXP 	test_word: text = 'forest'
+190.4740 	EXP 	fix2: autoDraw = True
+190.5572 	EXP 	Device response: <KeyPress from None: t=190.44689309998648, value=n, duration=0.10431390002486296>
+190.9735 	INFO 	Keyboard events cleared
+190.9734 	EXP 	fix2: autoDraw = False
+190.9734 	EXP 	test_word: autoDraw = True
+190.9734 	EXP 	reminder: autoDraw = True
+191.7108 	DATA 	Keypress: y
+191.7242 	EXP 	Device response: <KeyPress from None: t=191.70974910000223, value=y, duration=None>
+191.7247 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'word': 'drum', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+191.7401 	EXP 	fix2: autoDraw = False
+191.7401 	EXP 	test_word: autoDraw = False
+191.7401 	EXP 	reminder: autoDraw = False
+191.7401 	EXP 	test_word: height = np.float64(0.08)
+191.7401 	EXP 	test_word: height = np.float64(0.08)
+191.7401 	EXP 	test_word: height = np.float64(0.08)
+191.7401 	EXP 	test_word: text = 'drum'
+191.7401 	EXP 	fix2: autoDraw = True
+191.8250 	EXP 	Device response: <KeyPress from None: t=191.70974910000223, value=y, duration=0.11317409999901429>
+192.2241 	INFO 	Keyboard events cleared
+192.2239 	EXP 	test_word: autoDraw = True
+192.2239 	EXP 	reminder: autoDraw = True
+192.2405 	EXP 	fix2: autoDraw = False
+193.0078 	EXP 	Device response: <KeyPress from None: t=192.99499710000237, value=n, duration=None>
+193.0083 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'word': 'ribbon', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+193.0136 	DATA 	Keypress: n
+193.0236 	EXP 	fix2: autoDraw = False
+193.0236 	EXP 	test_word: autoDraw = False
+193.0236 	EXP 	reminder: autoDraw = False
+193.0236 	EXP 	test_word: height = np.float64(0.08)
+193.0236 	EXP 	test_word: height = np.float64(0.08)
+193.0236 	EXP 	test_word: height = np.float64(0.08)
+193.0236 	EXP 	test_word: text = 'ribbon'
+193.0236 	EXP 	fix2: autoDraw = True
+193.1074 	EXP 	Device response: <KeyPress from None: t=192.99499710000237, value=n, duration=0.09763529998599552>
+193.5238 	INFO 	Keyboard events cleared
+193.5236 	EXP 	fix2: autoDraw = False
+193.5236 	EXP 	test_word: autoDraw = True
+193.5236 	EXP 	reminder: autoDraw = True
+194.2080 	EXP 	Device response: <KeyPress from None: t=194.19664499998908, value=n, duration=None>
+194.2084 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'word': 'button', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+194.2130 	DATA 	Keypress: n
+194.2234 	EXP 	fix2: autoDraw = False
+194.2234 	EXP 	test_word: autoDraw = False
+194.2234 	EXP 	reminder: autoDraw = False
+194.2234 	EXP 	test_word: height = np.float64(0.08)
+194.2234 	EXP 	test_word: height = np.float64(0.08)
+194.2234 	EXP 	test_word: height = np.float64(0.08)
+194.2234 	EXP 	test_word: text = 'button'
+194.2234 	EXP 	fix2: autoDraw = True
+194.3077 	EXP 	Device response: <KeyPress from None: t=194.19664499998908, value=n, duration=0.09522240000660531>
+194.7240 	INFO 	Keyboard events cleared
+194.7239 	EXP 	fix2: autoDraw = False
+194.7239 	EXP 	test_word: autoDraw = True
+194.7239 	EXP 	reminder: autoDraw = True
+195.6572 	EXP 	Device response: <KeyPress from None: t=195.64428690000204, value=y, duration=None>
+195.6577 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'word': 'kettle', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+195.6636 	DATA 	Keypress: y
+195.6732 	EXP 	fix2: autoDraw = False
+195.6732 	EXP 	test_word: autoDraw = False
+195.6732 	EXP 	reminder: autoDraw = False
+195.6732 	EXP 	test_word: height = np.float64(0.08)
+195.6732 	EXP 	test_word: height = np.float64(0.08)
+195.6732 	EXP 	test_word: height = np.float64(0.08)
+195.6732 	EXP 	test_word: text = 'kettle'
+195.6732 	EXP 	fix2: autoDraw = True
+195.7744 	EXP 	Device response: <KeyPress from None: t=195.64428690000204, value=y, duration=0.11465719999978319>
+196.1570 	INFO 	Keyboard events cleared
+196.1568 	EXP 	test_word: autoDraw = True
+196.1568 	EXP 	reminder: autoDraw = True
+196.1739 	EXP 	fix2: autoDraw = False
+196.7745 	EXP 	Device response: <KeyPress from None: t=196.76292109998758, value=y, duration=None>
+196.7751 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'word': 'thumb', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+196.7808 	DATA 	Keypress: y
+196.7911 	EXP 	fix2: autoDraw = False
+196.7911 	EXP 	test_word: autoDraw = False
+196.7911 	EXP 	reminder: autoDraw = False
+196.7911 	EXP 	test_word: height = np.float64(0.08)
+196.7911 	EXP 	test_word: height = np.float64(0.08)
+196.7911 	EXP 	test_word: height = np.float64(0.08)
+196.7911 	EXP 	test_word: text = 'thumb'
+196.7911 	EXP 	fix2: autoDraw = True
+196.9074 	EXP 	Device response: <KeyPress from None: t=196.76292109998758, value=y, duration=0.13873060001060367>
+197.2901 	INFO 	Keyboard events cleared
+197.2899 	EXP 	test_word: autoDraw = True
+197.2899 	EXP 	reminder: autoDraw = True
+197.3069 	EXP 	fix2: autoDraw = False
+197.9740 	EXP 	Device response: <KeyPress from None: t=197.97223929999745, value=y, duration=None>
+197.9746 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'word': 'pillow', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+197.9804 	DATA 	Keypress: y
+197.9903 	EXP 	fix2: autoDraw = False
+197.9903 	EXP 	test_word: autoDraw = False
+197.9903 	EXP 	reminder: autoDraw = False
+197.9903 	EXP 	test_word: height = np.float64(0.08)
+197.9903 	EXP 	test_word: height = np.float64(0.08)
+197.9903 	EXP 	test_word: height = np.float64(0.08)
+197.9903 	EXP 	test_word: text = 'pillow'
+197.9903 	EXP 	fix2: autoDraw = True
+198.1414 	EXP 	Device response: <KeyPress from None: t=197.97223929999745, value=y, duration=0.1545003000064753>
+198.4905 	INFO 	Keyboard events cleared
+198.4903 	EXP 	fix2: autoDraw = False
+198.4903 	EXP 	test_word: autoDraw = True
+198.4903 	EXP 	reminder: autoDraw = True
+199.0247 	EXP 	Device response: <KeyPress from None: t=199.02299779999885, value=y, duration=None>
+199.0251 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'word': 'rocket', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+199.0310 	DATA 	Keypress: y
+199.0401 	EXP 	fix2: autoDraw = False
+199.0401 	EXP 	test_word: autoDraw = False
+199.0401 	EXP 	reminder: autoDraw = False
+199.0401 	EXP 	test_word: height = np.float64(0.08)
+199.0401 	EXP 	test_word: height = np.float64(0.08)
+199.0401 	EXP 	test_word: height = np.float64(0.08)
+199.0401 	EXP 	test_word: text = 'rocket'
+199.0401 	EXP 	fix2: autoDraw = True
+199.1583 	EXP 	Device response: <KeyPress from None: t=199.02299779999885, value=y, duration=0.13508249999722466>
+199.5402 	INFO 	Keyboard events cleared
+199.5400 	EXP 	fix2: autoDraw = False
+199.5400 	EXP 	test_word: autoDraw = True
+199.5400 	EXP 	reminder: autoDraw = True
+200.0574 	EXP 	Device response: <KeyPress from None: t=200.0432765999867, value=y, duration=None>
+200.0577 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'word': 'chair', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+200.0665 	DATA 	Keypress: y
+200.0735 	EXP 	fix2: autoDraw = False
+200.0735 	EXP 	test_word: autoDraw = False
+200.0735 	EXP 	reminder: autoDraw = False
+200.0735 	EXP 	test_word: height = np.float64(0.08)
+200.0735 	EXP 	test_word: height = np.float64(0.08)
+200.0735 	EXP 	test_word: height = np.float64(0.08)
+200.0735 	EXP 	test_word: text = 'chair'
+200.0735 	EXP 	fix2: autoDraw = True
+200.1752 	EXP 	Device response: <KeyPress from None: t=200.0432765999867, value=y, duration=0.1308685000112746>
+200.5573 	INFO 	Keyboard events cleared
+200.5571 	EXP 	test_word: autoDraw = True
+200.5571 	EXP 	reminder: autoDraw = True
+200.5735 	EXP 	fix2: autoDraw = False
+201.2591 	DATA 	Keypress: y
+201.2744 	EXP 	Device response: <KeyPress from None: t=201.25780409999425, value=y, duration=None>
+201.2748 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'word': 'carpet', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+201.2904 	EXP 	fix2: autoDraw = False
+201.2904 	EXP 	test_word: autoDraw = False
+201.2904 	EXP 	reminder: autoDraw = False
+201.2904 	EXP 	test_word: height = np.float64(0.08)
+201.2904 	EXP 	test_word: height = np.float64(0.08)
+201.2904 	EXP 	test_word: height = np.float64(0.08)
+201.2904 	EXP 	test_word: text = 'carpet'
+201.2904 	EXP 	fix2: autoDraw = True
+201.3579 	EXP 	Device response: <KeyPress from None: t=201.25780409999425, value=y, duration=0.09837120000156574>
+201.7902 	INFO 	Keyboard events cleared
+201.7900 	EXP 	fix2: autoDraw = False
+201.7900 	EXP 	test_word: autoDraw = True
+201.7900 	EXP 	reminder: autoDraw = True
+202.7746 	EXP 	Device response: <KeyPress from None: t=202.76794920000248, value=y, duration=None>
+202.7750 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'word': 'turtle', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+202.7803 	DATA 	Keypress: y
+202.7899 	EXP 	fix2: autoDraw = False
+202.7899 	EXP 	test_word: autoDraw = False
+202.7899 	EXP 	reminder: autoDraw = False
+202.7899 	EXP 	test_word: height = np.float64(0.08)
+202.7899 	EXP 	test_word: height = np.float64(0.08)
+202.7899 	EXP 	test_word: height = np.float64(0.08)
+202.7899 	EXP 	test_word: text = 'turtle'
+202.7899 	EXP 	fix2: autoDraw = True
+202.8742 	EXP 	Device response: <KeyPress from None: t=202.76794920000248, value=y, duration=0.09994729998288676>
+203.2904 	INFO 	Keyboard events cleared
+203.2903 	EXP 	fix2: autoDraw = False
+203.2903 	EXP 	test_word: autoDraw = True
+203.2903 	EXP 	reminder: autoDraw = True
+204.5246 	EXP 	Device response: <KeyPress from None: t=204.51736399999936, value=y, duration=None>
+204.5251 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'word': 'cactus', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+204.5319 	DATA 	Keypress: y
+204.5401 	EXP 	fix2: autoDraw = False
+204.5401 	EXP 	test_word: autoDraw = False
+204.5401 	EXP 	reminder: autoDraw = False
+204.5401 	EXP 	test_word: height = np.float64(0.08)
+204.5401 	EXP 	test_word: height = np.float64(0.08)
+204.5401 	EXP 	test_word: height = np.float64(0.08)
+204.5401 	EXP 	test_word: text = 'cactus'
+204.5401 	EXP 	fix2: autoDraw = True
+204.6583 	EXP 	Device response: <KeyPress from None: t=204.51736399999936, value=y, duration=0.1272093000006862>
+205.0401 	INFO 	Keyboard events cleared
+205.0399 	EXP 	fix2: autoDraw = False
+205.0399 	EXP 	test_word: autoDraw = True
+205.0399 	EXP 	reminder: autoDraw = True
+205.5240 	EXP 	Device response: <KeyPress from None: t=205.5177881999989, value=y, duration=None>
+205.5243 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'word': 'oven', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+205.5315 	DATA 	Keypress: y
+205.5399 	EXP 	fix2: autoDraw = False
+205.5399 	EXP 	test_word: autoDraw = False
+205.5399 	EXP 	reminder: autoDraw = False
+205.5399 	EXP 	test_word: height = np.float64(0.08)
+205.5399 	EXP 	test_word: height = np.float64(0.08)
+205.5399 	EXP 	test_word: height = np.float64(0.08)
+205.5399 	EXP 	test_word: text = 'oven'
+205.5399 	EXP 	fix2: autoDraw = True
+205.6570 	EXP 	Device response: <KeyPress from None: t=205.5177881999989, value=y, duration=0.12429529998917133>
+206.0401 	INFO 	Keyboard events cleared
+206.0399 	EXP 	fix2: autoDraw = False
+206.0399 	EXP 	test_word: autoDraw = True
+206.0399 	EXP 	reminder: autoDraw = True
+206.6744 	EXP 	Device response: <KeyPress from None: t=206.66935079998802, value=y, duration=None>
+206.6749 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'word': 'apple', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+206.6844 	DATA 	Keypress: y
+206.6898 	EXP 	fix2: autoDraw = False
+206.6898 	EXP 	test_word: autoDraw = False
+206.6898 	EXP 	reminder: autoDraw = False
+206.6898 	EXP 	test_word: height = np.float64(0.08)
+206.6898 	EXP 	test_word: height = np.float64(0.08)
+206.6898 	EXP 	test_word: height = np.float64(0.08)
+206.6898 	EXP 	test_word: text = 'apple'
+206.6898 	EXP 	fix2: autoDraw = True
+206.7570 	EXP 	Device response: <KeyPress from None: t=206.66935079998802, value=y, duration=0.08624610002152622>
+207.1908 	INFO 	Keyboard events cleared
+207.1906 	EXP 	fix2: autoDraw = False
+207.1906 	EXP 	test_word: autoDraw = True
+207.1906 	EXP 	reminder: autoDraw = True
+207.8080 	EXP 	Device response: <KeyPress from None: t=207.80678039998747, value=n, duration=None>
+207.8084 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'word': 'wagon', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+207.8147 	DATA 	Keypress: n
+207.8234 	EXP 	fix2: autoDraw = False
+207.8234 	EXP 	test_word: autoDraw = False
+207.8234 	EXP 	reminder: autoDraw = False
+207.8234 	EXP 	test_word: height = np.float64(0.08)
+207.8234 	EXP 	test_word: height = np.float64(0.08)
+207.8234 	EXP 	test_word: height = np.float64(0.08)
+207.8234 	EXP 	test_word: text = 'wagon'
+207.8234 	EXP 	fix2: autoDraw = True
+207.9241 	EXP 	Device response: <KeyPress from None: t=207.80678039998747, value=n, duration=0.10721040001953952>
+208.3072 	INFO 	Keyboard events cleared
+208.3071 	EXP 	test_word: autoDraw = True
+208.3071 	EXP 	reminder: autoDraw = True
+208.3235 	EXP 	fix2: autoDraw = False
+208.9244 	EXP 	Device response: <KeyPress from None: t=208.91913570000906, value=y, duration=None>
+208.9249 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'word': 'donkey', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+208.9305 	DATA 	Keypress: y
+208.9397 	EXP 	fix2: autoDraw = False
+208.9397 	EXP 	test_word: autoDraw = False
+208.9397 	EXP 	reminder: autoDraw = False
+208.9397 	EXP 	test_word: height = np.float64(0.08)
+208.9397 	EXP 	test_word: height = np.float64(0.08)
+208.9397 	EXP 	test_word: height = np.float64(0.08)
+208.9397 	EXP 	test_word: text = 'donkey'
+208.9397 	EXP 	fix2: autoDraw = True
+209.0738 	EXP 	Device response: <KeyPress from None: t=208.91913570000906, value=y, duration=0.1462648999877274>
+209.4403 	INFO 	Keyboard events cleared
+209.4401 	EXP 	fix2: autoDraw = False
+209.4401 	EXP 	test_word: autoDraw = True
+209.4401 	EXP 	reminder: autoDraw = True
+210.0418 	EXP 	Device response: <KeyPress from None: t=210.0392690000008, value=y, duration=None>
+210.0422 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'word': 'ladder', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+210.0478 	DATA 	Keypress: y
+210.0567 	EXP 	fix2: autoDraw = False
+210.0567 	EXP 	test_word: autoDraw = False
+210.0567 	EXP 	reminder: autoDraw = False
+210.0567 	EXP 	test_word: height = np.float64(0.08)
+210.0567 	EXP 	test_word: height = np.float64(0.08)
+210.0567 	EXP 	test_word: height = np.float64(0.08)
+210.0567 	EXP 	test_word: text = 'ladder'
+210.0567 	EXP 	fix2: autoDraw = True
+210.1911 	EXP 	Device response: <KeyPress from None: t=210.0392690000008, value=y, duration=0.1467514999967534>
+210.5571 	INFO 	Keyboard events cleared
+210.5569 	EXP 	fix2: autoDraw = False
+210.5569 	EXP 	test_word: autoDraw = True
+210.5569 	EXP 	reminder: autoDraw = True
+211.0909 	EXP 	Device response: <KeyPress from None: t=211.07934560001013, value=y, duration=None>
+211.0914 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'word': 'sugar', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+211.1014 	DATA 	Keypress: y
+211.1065 	EXP 	fix2: autoDraw = False
+211.1065 	EXP 	test_word: autoDraw = False
+211.1065 	EXP 	reminder: autoDraw = False
+211.1065 	EXP 	test_word: height = np.float64(0.08)
+211.1065 	EXP 	test_word: height = np.float64(0.08)
+211.1065 	EXP 	test_word: height = np.float64(0.08)
+211.1065 	EXP 	test_word: text = 'sugar'
+211.1065 	EXP 	fix2: autoDraw = True
+211.2412 	EXP 	Device response: <KeyPress from None: t=211.07934560001013, value=y, duration=0.14764039998408407>
+211.6065 	INFO 	Keyboard events cleared
+211.6064 	EXP 	fix2: autoDraw = False
+211.6064 	EXP 	test_word: autoDraw = True
+211.6064 	EXP 	reminder: autoDraw = True
+212.1905 	EXP 	Device response: <KeyPress from None: t=212.18915550000384, value=n, duration=None>
+212.1909 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'word': 'dragon', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+212.1970 	DATA 	Keypress: n
+212.2064 	EXP 	fix2: autoDraw = False
+212.2064 	EXP 	test_word: autoDraw = False
+212.2064 	EXP 	reminder: autoDraw = False
+212.2064 	EXP 	test_word: height = np.float64(0.08)
+212.2064 	EXP 	test_word: height = np.float64(0.08)
+212.2064 	EXP 	test_word: height = np.float64(0.08)
+212.2064 	EXP 	test_word: text = 'dragon'
+212.2064 	EXP 	fix2: autoDraw = True
+212.2904 	EXP 	Device response: <KeyPress from None: t=212.18915550000384, value=n, duration=0.08818890000111423>
+212.7065 	INFO 	Keyboard events cleared
+212.7064 	EXP 	fix2: autoDraw = False
+212.7064 	EXP 	test_word: autoDraw = True
+212.7064 	EXP 	reminder: autoDraw = True
+213.2579 	EXP 	Device response: <KeyPress from None: t=213.24641809999594, value=y, duration=None>
+213.2583 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'word': 'barrel', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+213.2647 	DATA 	Keypress: y
+213.2733 	EXP 	fix2: autoDraw = False
+213.2733 	EXP 	test_word: autoDraw = False
+213.2733 	EXP 	reminder: autoDraw = False
+213.2733 	EXP 	test_word: height = np.float64(0.08)
+213.2733 	EXP 	test_word: height = np.float64(0.08)
+213.2733 	EXP 	test_word: height = np.float64(0.08)
+213.2733 	EXP 	test_word: text = 'barrel'
+213.2733 	EXP 	fix2: autoDraw = True
+213.3904 	EXP 	Device response: <KeyPress from None: t=213.24641809999594, value=y, duration=0.14217330000246875>
+213.7572 	INFO 	Keyboard events cleared
+213.7570 	EXP 	test_word: autoDraw = True
+213.7570 	EXP 	reminder: autoDraw = True
+213.7736 	EXP 	fix2: autoDraw = False
+214.3269 	DATA 	Keypress: y
+214.3405 	EXP 	Device response: <KeyPress from None: t=214.32562429999234, value=y, duration=None>
+214.3408 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'word': 'planet', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+214.3566 	EXP 	fix2: autoDraw = False
+214.3566 	EXP 	test_word: autoDraw = False
+214.3566 	EXP 	reminder: autoDraw = False
+214.3566 	EXP 	test_word: height = np.float64(0.08)
+214.3566 	EXP 	test_word: height = np.float64(0.08)
+214.3566 	EXP 	test_word: height = np.float64(0.08)
+214.3566 	EXP 	test_word: text = 'planet'
+214.3566 	EXP 	fix2: autoDraw = True
+214.4408 	EXP 	Device response: <KeyPress from None: t=214.32562429999234, value=y, duration=0.10721539999940433>
+214.8400 	INFO 	Keyboard events cleared
+214.8398 	EXP 	test_word: autoDraw = True
+214.8398 	EXP 	reminder: autoDraw = True
+214.8563 	EXP 	fix2: autoDraw = False
+215.6406 	EXP 	Device response: <KeyPress from None: t=215.63828569999896, value=n, duration=None>
+215.6410 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'word': 'puppet', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+215.6455 	DATA 	Keypress: n
+215.6566 	EXP 	fix2: autoDraw = False
+215.6566 	EXP 	test_word: autoDraw = False
+215.6566 	EXP 	reminder: autoDraw = False
+215.6566 	EXP 	test_word: height = np.float64(0.08)
+215.6566 	EXP 	test_word: height = np.float64(0.08)
+215.6566 	EXP 	test_word: height = np.float64(0.08)
+215.6566 	EXP 	test_word: text = 'puppet'
+215.6566 	EXP 	fix2: autoDraw = True
+215.7245 	EXP 	Device response: <KeyPress from None: t=215.63828569999896, value=n, duration=0.07821690000128001>
+216.1399 	INFO 	Keyboard events cleared
+216.1398 	EXP 	test_word: autoDraw = True
+216.1398 	EXP 	reminder: autoDraw = True
+216.1566 	EXP 	fix2: autoDraw = False
+216.8408 	EXP 	Device response: <KeyPress from None: t=216.83306830000947, value=y, duration=None>
+216.8413 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'word': 'anchor', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+216.8471 	DATA 	Keypress: y
+216.8563 	EXP 	fix2: autoDraw = False
+216.8563 	EXP 	test_word: autoDraw = False
+216.8563 	EXP 	reminder: autoDraw = False
+216.8563 	EXP 	test_word: height = np.float64(0.08)
+216.8563 	EXP 	test_word: height = np.float64(0.08)
+216.8563 	EXP 	test_word: height = np.float64(0.08)
+216.8563 	EXP 	test_word: text = 'anchor'
+216.8563 	EXP 	fix2: autoDraw = True
+216.9578 	EXP 	Device response: <KeyPress from None: t=216.83306830000947, value=y, duration=0.11398909997660667>
+217.3566 	INFO 	Keyboard events cleared
+217.3565 	EXP 	fix2: autoDraw = False
+217.3565 	EXP 	test_word: autoDraw = True
+217.3565 	EXP 	reminder: autoDraw = True
+219.1763 	DATA 	Keypress: n
+219.1911 	EXP 	Device response: <KeyPress from None: t=219.17539129999932, value=n, duration=None>
+219.1914 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'word': 'window', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+219.2067 	EXP 	fix2: autoDraw = False
+219.2067 	EXP 	test_word: autoDraw = False
+219.2067 	EXP 	reminder: autoDraw = False
+219.2067 	EXP 	test_word: height = np.float64(0.08)
+219.2067 	EXP 	test_word: height = np.float64(0.08)
+219.2067 	EXP 	test_word: height = np.float64(0.08)
+219.2067 	EXP 	test_word: text = 'window'
+219.2067 	EXP 	fix2: autoDraw = True
+219.3070 	EXP 	Device response: <KeyPress from None: t=219.17539129999932, value=n, duration=0.12453860000823624>
+219.7070 	INFO 	Keyboard events cleared
+219.7068 	EXP 	fix2: autoDraw = False
+219.7068 	EXP 	test_word: autoDraw = True
+219.7068 	EXP 	reminder: autoDraw = True
+220.3079 	EXP 	Device response: <KeyPress from None: t=220.30594560000463, value=y, duration=None>
+220.3082 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'word': 'circus', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+220.3172 	DATA 	Keypress: y
+220.3234 	EXP 	fix2: autoDraw = False
+220.3234 	EXP 	test_word: autoDraw = False
+220.3234 	EXP 	reminder: autoDraw = False
+220.3234 	EXP 	test_word: height = np.float64(0.08)
+220.3234 	EXP 	test_word: height = np.float64(0.08)
+220.3234 	EXP 	test_word: height = np.float64(0.08)
+220.3234 	EXP 	test_word: text = 'circus'
+220.3234 	EXP 	fix2: autoDraw = True
+220.4075 	EXP 	Device response: <KeyPress from None: t=220.30594560000463, value=y, duration=0.09443679999094456>
+220.8234 	INFO 	Keyboard events cleared
+220.8232 	EXP 	fix2: autoDraw = False
+220.8232 	EXP 	test_word: autoDraw = True
+220.8232 	EXP 	reminder: autoDraw = True
+221.5077 	EXP 	Device response: <KeyPress from None: t=221.4943271999946, value=n, duration=None>
+221.5081 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'word': 'feather', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+221.5148 	DATA 	Keypress: n
+221.5233 	EXP 	fix2: autoDraw = False
+221.5233 	EXP 	test_word: autoDraw = False
+221.5233 	EXP 	reminder: autoDraw = False
+221.5233 	EXP 	test_word: height = np.float64(0.08)
+221.5233 	EXP 	test_word: height = np.float64(0.08)
+221.5233 	EXP 	test_word: height = np.float64(0.08)
+221.5233 	EXP 	test_word: text = 'feather'
+221.5233 	EXP 	fix2: autoDraw = True
+221.6409 	EXP 	Device response: <KeyPress from None: t=221.4943271999946, value=n, duration=0.132967000012286>
+222.0076 	INFO 	Keyboard events cleared
+222.0074 	EXP 	test_word: autoDraw = True
+222.0074 	EXP 	reminder: autoDraw = True
+222.0233 	EXP 	fix2: autoDraw = False
+222.5738 	EXP 	Device response: <KeyPress from None: t=222.56805619999068, value=y, duration=None>
+222.5742 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'word': 'shirt', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+222.5794 	DATA 	Keypress: y
+222.5898 	EXP 	fix2: autoDraw = False
+222.5898 	EXP 	test_word: autoDraw = False
+222.5898 	EXP 	reminder: autoDraw = False
+222.5898 	EXP 	test_word: height = np.float64(0.08)
+222.5898 	EXP 	test_word: height = np.float64(0.08)
+222.5898 	EXP 	test_word: height = np.float64(0.08)
+222.5898 	EXP 	test_word: text = 'shirt'
+222.5898 	EXP 	fix2: autoDraw = True
+222.7070 	EXP 	Device response: <KeyPress from None: t=222.56805619999068, value=y, duration=0.13063290002173744>
+223.0736 	INFO 	Keyboard events cleared
+223.0735 	EXP 	test_word: autoDraw = True
+223.0735 	EXP 	reminder: autoDraw = True
+223.0904 	EXP 	fix2: autoDraw = False
+223.7570 	EXP 	Device response: <KeyPress from None: t=223.74472829999286, value=n, duration=None>
+223.7574 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'word': 'table', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+223.7635 	DATA 	Keypress: n
+223.7733 	EXP 	fix2: autoDraw = False
+223.7733 	EXP 	test_word: autoDraw = False
+223.7733 	EXP 	reminder: autoDraw = False
+223.7733 	EXP 	test_word: height = np.float64(0.08)
+223.7733 	EXP 	test_word: height = np.float64(0.08)
+223.7733 	EXP 	test_word: height = np.float64(0.08)
+223.7733 	EXP 	test_word: text = 'table'
+223.7733 	EXP 	fix2: autoDraw = True
+223.8742 	EXP 	Device response: <KeyPress from None: t=223.74472829999286, value=n, duration=0.11913700000150129>
+224.2567 	INFO 	Keyboard events cleared
+224.2566 	EXP 	test_word: autoDraw = True
+224.2566 	EXP 	reminder: autoDraw = True
+224.2736 	EXP 	fix2: autoDraw = False
+225.0745 	EXP 	Device response: <KeyPress from None: t=225.06279279998853, value=n, duration=None>
+225.0749 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'word': 'wallet', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+225.0845 	DATA 	Keypress: n
+225.0899 	EXP 	fix2: autoDraw = False
+225.0899 	EXP 	test_word: autoDraw = False
+225.0899 	EXP 	reminder: autoDraw = False
+225.0899 	EXP 	test_word: height = np.float64(0.08)
+225.0899 	EXP 	test_word: height = np.float64(0.08)
+225.0899 	EXP 	test_word: height = np.float64(0.08)
+225.0899 	EXP 	test_word: text = 'wallet'
+225.0899 	EXP 	fix2: autoDraw = True
+225.2242 	EXP 	Device response: <KeyPress from None: t=225.06279279998853, value=n, duration=0.14414010001928546>
+225.5904 	INFO 	Keyboard events cleared
+225.5902 	EXP 	fix2: autoDraw = False
+225.5902 	EXP 	test_word: autoDraw = True
+225.5902 	EXP 	reminder: autoDraw = True
+226.1074 	EXP 	Device response: <KeyPress from None: t=226.09671260000323, value=y, duration=None>
+226.1078 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'word': 'train', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+226.1130 	DATA 	Keypress: y
+226.1232 	EXP 	fix2: autoDraw = False
+226.1232 	EXP 	test_word: autoDraw = False
+226.1232 	EXP 	reminder: autoDraw = False
+226.1232 	EXP 	test_word: height = np.float64(0.08)
+226.1232 	EXP 	test_word: height = np.float64(0.08)
+226.1232 	EXP 	test_word: height = np.float64(0.08)
+226.1232 	EXP 	test_word: text = 'train'
+226.1232 	EXP 	fix2: autoDraw = True
+226.2247 	EXP 	Device response: <KeyPress from None: t=226.09671260000323, value=y, duration=0.11498539999593049>
+226.6069 	INFO 	Keyboard events cleared
+226.6067 	EXP 	test_word: autoDraw = True
+226.6067 	EXP 	reminder: autoDraw = True
+226.6236 	EXP 	fix2: autoDraw = False
+227.2577 	EXP 	Device response: <KeyPress from None: t=227.24328860000242, value=n, duration=None>
+227.2581 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'word': 'guitar', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+227.2645 	DATA 	Keypress: n
+227.2735 	EXP 	fix2: autoDraw = False
+227.2735 	EXP 	test_word: autoDraw = False
+227.2735 	EXP 	reminder: autoDraw = False
+227.2735 	EXP 	test_word: height = np.float64(0.08)
+227.2735 	EXP 	test_word: height = np.float64(0.08)
+227.2735 	EXP 	test_word: height = np.float64(0.08)
+227.2735 	EXP 	test_word: text = 'guitar'
+227.2735 	EXP 	fix2: autoDraw = True
+227.4401 	EXP 	Device response: <KeyPress from None: t=227.24328860000242, value=n, duration=0.1882530000002589>
+227.7735 	INFO 	Keyboard events cleared
+227.7733 	EXP 	fix2: autoDraw = False
+227.7733 	EXP 	test_word: autoDraw = True
+227.7733 	EXP 	reminder: autoDraw = True
+228.5240 	EXP 	Device response: <KeyPress from None: t=228.51976080000168, value=y, duration=None>
+228.5243 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'word': 'pepper', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+228.5298 	DATA 	Keypress: y
+228.5399 	EXP 	fix2: autoDraw = False
+228.5399 	EXP 	test_word: autoDraw = False
+228.5399 	EXP 	reminder: autoDraw = False
+228.5399 	EXP 	test_word: height = np.float64(0.08)
+228.5399 	EXP 	test_word: height = np.float64(0.08)
+228.5399 	EXP 	test_word: height = np.float64(0.08)
+228.5399 	EXP 	test_word: text = 'pepper'
+228.5399 	EXP 	fix2: autoDraw = True
+228.6241 	EXP 	Device response: <KeyPress from None: t=228.51976080000168, value=y, duration=0.10249449999537319>
+229.0403 	INFO 	Keyboard events cleared
+229.0402 	EXP 	fix2: autoDraw = False
+229.0402 	EXP 	test_word: autoDraw = True
+229.0402 	EXP 	reminder: autoDraw = True
+229.7408 	EXP 	Device response: <KeyPress from None: t=229.7343772999884, value=n, duration=None>
+229.7412 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'word': 'lamp', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+229.7463 	DATA 	Keypress: n
+229.7563 	EXP 	fix2: autoDraw = False
+229.7563 	EXP 	test_word: autoDraw = False
+229.7563 	EXP 	reminder: autoDraw = False
+229.7563 	EXP 	test_word: height = np.float64(0.08)
+229.7563 	EXP 	test_word: height = np.float64(0.08)
+229.7563 	EXP 	test_word: height = np.float64(0.08)
+229.7563 	EXP 	test_word: text = 'lamp'
+229.7563 	EXP 	fix2: autoDraw = True
+229.8566 	EXP 	Device response: <KeyPress from None: t=229.7343772999884, value=n, duration=0.1176753000181634>
+230.2399 	INFO 	Keyboard events cleared
+230.2398 	EXP 	test_word: autoDraw = True
+230.2398 	EXP 	reminder: autoDraw = True
+230.2563 	EXP 	fix2: autoDraw = False
+230.6747 	EXP 	Device response: <KeyPress from None: t=230.6727060000121, value=y, duration=None>
+230.6752 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'word': 'horse', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+230.6811 	DATA 	Keypress: y
+230.6898 	EXP 	fix2: autoDraw = False
+230.6898 	EXP 	test_word: autoDraw = False
+230.6898 	EXP 	reminder: autoDraw = False
+230.6898 	EXP 	test_word: height = np.float64(0.08)
+230.6898 	EXP 	test_word: height = np.float64(0.08)
+230.6898 	EXP 	test_word: height = np.float64(0.08)
+230.6898 	EXP 	test_word: text = 'horse'
+230.6898 	EXP 	fix2: autoDraw = True
+230.8237 	EXP 	Device response: <KeyPress from None: t=230.6727060000121, value=y, duration=0.14358499998343177>
+231.1901 	INFO 	Keyboard events cleared
+231.1899 	EXP 	fix2: autoDraw = False
+231.1899 	EXP 	test_word: autoDraw = True
+231.1899 	EXP 	reminder: autoDraw = True
+232.0238 	EXP 	Device response: <KeyPress from None: t=232.01771569999983, value=n, duration=None>
+232.0242 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'word': 'cotton', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+232.0294 	DATA 	Keypress: n
+232.0401 	EXP 	fix2: autoDraw = False
+232.0401 	EXP 	test_word: autoDraw = False
+232.0401 	EXP 	reminder: autoDraw = False
+232.0401 	EXP 	test_word: height = np.float64(0.08)
+232.0401 	EXP 	test_word: height = np.float64(0.08)
+232.0401 	EXP 	test_word: height = np.float64(0.08)
+232.0401 	EXP 	test_word: text = 'cotton'
+232.0401 	EXP 	fix2: autoDraw = True
+232.1240 	EXP 	Device response: <KeyPress from None: t=232.01771569999983, value=n, duration=0.09900970000308007>
+232.5234 	INFO 	Keyboard events cleared
+232.5232 	EXP 	test_word: autoDraw = True
+232.5232 	EXP 	reminder: autoDraw = True
+232.5402 	EXP 	fix2: autoDraw = False
+233.2263 	DATA 	Keypress: n
+233.2408 	EXP 	Device response: <KeyPress from None: t=233.2248918999976, value=n, duration=None>
+233.2412 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'word': 'hammer', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+233.2564 	EXP 	fix2: autoDraw = False
+233.2564 	EXP 	test_word: autoDraw = False
+233.2564 	EXP 	reminder: autoDraw = False
+233.2564 	EXP 	test_word: height = np.float64(0.08)
+233.2564 	EXP 	test_word: height = np.float64(0.08)
+233.2564 	EXP 	test_word: height = np.float64(0.08)
+233.2564 	EXP 	test_word: text = 'hammer'
+233.2564 	EXP 	fix2: autoDraw = True
+233.3406 	EXP 	Device response: <KeyPress from None: t=233.2248918999976, value=n, duration=0.10119730001315475>
+233.7568 	INFO 	Keyboard events cleared
+233.7566 	EXP 	fix2: autoDraw = False
+233.7566 	EXP 	test_word: autoDraw = True
+233.7566 	EXP 	reminder: autoDraw = True
+234.4566 	EXP 	Device response: <KeyPress from None: t=234.44677539999248, value=n, duration=None>
+234.4570 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'word': 'island', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+234.4622 	DATA 	Keypress: n
+234.4731 	EXP 	fix2: autoDraw = False
+234.4731 	EXP 	test_word: autoDraw = False
+234.4731 	EXP 	reminder: autoDraw = False
+234.4731 	EXP 	test_word: height = np.float64(0.08)
+234.4731 	EXP 	test_word: height = np.float64(0.08)
+234.4731 	EXP 	test_word: height = np.float64(0.08)
+234.4731 	EXP 	test_word: text = 'island'
+234.4731 	EXP 	fix2: autoDraw = True
+234.5733 	EXP 	Device response: <KeyPress from None: t=234.44677539999248, value=n, duration=0.12207850001868792>
+234.9568 	INFO 	Keyboard events cleared
+234.9567 	EXP 	test_word: autoDraw = True
+234.9567 	EXP 	reminder: autoDraw = True
+234.9732 	EXP 	fix2: autoDraw = False
+235.5076 	EXP 	Device response: <KeyPress from None: t=235.50598389998777, value=n, duration=None>
+235.5079 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'word': 'garden', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+235.5132 	DATA 	Keypress: n
+235.5228 	EXP 	fix2: autoDraw = False
+235.5228 	EXP 	test_word: autoDraw = False
+235.5228 	EXP 	reminder: autoDraw = False
+235.5228 	EXP 	test_word: height = np.float64(0.08)
+235.5228 	EXP 	test_word: height = np.float64(0.08)
+235.5228 	EXP 	test_word: height = np.float64(0.08)
+235.5228 	EXP 	test_word: text = 'garden'
+235.5228 	EXP 	fix2: autoDraw = True
+235.6567 	EXP 	Device response: <KeyPress from None: t=235.50598389998777, value=n, duration=0.14550880002207123>
+236.0064 	INFO 	Keyboard events cleared
+236.0061 	EXP 	test_word: autoDraw = True
+236.0061 	EXP 	reminder: autoDraw = True
+236.0229 	EXP 	fix2: autoDraw = False
+236.7407 	EXP 	Device response: <KeyPress from None: t=236.73220259998925, value=n, duration=None>
+236.7412 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'word': 'monkey', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+236.7473 	DATA 	Keypress: n
+236.7566 	EXP 	fix2: autoDraw = False
+236.7566 	EXP 	test_word: autoDraw = False
+236.7566 	EXP 	reminder: autoDraw = False
+236.7566 	EXP 	test_word: height = np.float64(0.08)
+236.7566 	EXP 	test_word: height = np.float64(0.08)
+236.7566 	EXP 	test_word: height = np.float64(0.08)
+236.7566 	EXP 	test_word: text = 'monkey'
+236.7566 	EXP 	fix2: autoDraw = True
+236.8740 	EXP 	Device response: <KeyPress from None: t=236.73220259998925, value=n, duration=0.12816360002034344>
+237.2400 	INFO 	Keyboard events cleared
+237.2397 	EXP 	test_word: autoDraw = True
+237.2397 	EXP 	reminder: autoDraw = True
+237.2561 	EXP 	fix2: autoDraw = False
+237.9069 	EXP 	Device response: <KeyPress from None: t=237.89593920001062, value=n, duration=None>
+237.9072 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'word': 'river', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+237.9129 	DATA 	Keypress: n
+237.9229 	EXP 	fix2: autoDraw = False
+237.9229 	EXP 	test_word: autoDraw = False
+237.9229 	EXP 	reminder: autoDraw = False
+237.9229 	EXP 	test_word: height = np.float64(0.08)
+237.9229 	EXP 	test_word: height = np.float64(0.08)
+237.9229 	EXP 	test_word: height = np.float64(0.08)
+237.9229 	EXP 	test_word: text = 'river'
+237.9229 	EXP 	fix2: autoDraw = True
+238.0237 	EXP 	Device response: <KeyPress from None: t=237.89593920001062, value=n, duration=0.1163741999771446>
+238.4070 	INFO 	Keyboard events cleared
+238.4068 	EXP 	test_word: autoDraw = True
+238.4068 	EXP 	reminder: autoDraw = True
+238.4234 	EXP 	fix2: autoDraw = False
+238.8910 	EXP 	Device response: <KeyPress from None: t=238.88925849998486, value=n, duration=None>
+238.8914 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'word': 'cherry', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+238.8975 	DATA 	Keypress: n
+238.9066 	EXP 	fix2: autoDraw = False
+238.9066 	EXP 	test_word: autoDraw = False
+238.9066 	EXP 	reminder: autoDraw = False
+238.9066 	EXP 	test_word: height = np.float64(0.08)
+238.9066 	EXP 	test_word: height = np.float64(0.08)
+238.9066 	EXP 	test_word: height = np.float64(0.08)
+238.9066 	EXP 	test_word: text = 'cherry'
+238.9066 	EXP 	fix2: autoDraw = True
+239.0566 	EXP 	Device response: <KeyPress from None: t=238.88925849998486, value=n, duration=0.15503960000933148>
+239.4066 	INFO 	Keyboard events cleared
+239.4065 	EXP 	fix2: autoDraw = False
+239.4065 	EXP 	test_word: autoDraw = True
+239.4065 	EXP 	reminder: autoDraw = True
+240.0075 	EXP 	Device response: <KeyPress from None: t=239.9927931999846, value=n, duration=None>
+240.0079 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'word': 'ocean', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+240.0138 	DATA 	Keypress: n
+240.0232 	EXP 	fix2: autoDraw = False
+240.0232 	EXP 	test_word: autoDraw = False
+240.0232 	EXP 	reminder: autoDraw = False
+240.0232 	EXP 	test_word: height = np.float64(0.08)
+240.0232 	EXP 	test_word: height = np.float64(0.08)
+240.0232 	EXP 	test_word: height = np.float64(0.08)
+240.0232 	EXP 	test_word: text = 'ocean'
+240.0232 	EXP 	fix2: autoDraw = True
+240.1573 	EXP 	Device response: <KeyPress from None: t=239.9927931999846, value=n, duration=0.15029570000478998>
+240.5237 	INFO 	Keyboard events cleared
+240.5235 	EXP 	fix2: autoDraw = False
+240.5235 	EXP 	test_word: autoDraw = True
+240.5235 	EXP 	reminder: autoDraw = True
+241.4901 	EXP 	Device response: <KeyPress from None: t=241.4853260999953, value=n, duration=None>
+241.4904 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'word': 'shoe', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+241.4950 	DATA 	Keypress: n
+241.5060 	EXP 	fix2: autoDraw = False
+241.5060 	EXP 	test_word: autoDraw = False
+241.5060 	EXP 	reminder: autoDraw = False
+241.5060 	EXP 	test_word: height = np.float64(0.08)
+241.5060 	EXP 	test_word: height = np.float64(0.08)
+241.5060 	EXP 	test_word: height = np.float64(0.08)
+241.5060 	EXP 	test_word: text = 'shoe'
+241.5060 	EXP 	fix2: autoDraw = True
+241.6409 	EXP 	Device response: <KeyPress from None: t=241.4853260999953, value=n, duration=0.14037000000826083>
+241.9897 	INFO 	Keyboard events cleared
+241.9896 	EXP 	test_word: autoDraw = True
+241.9896 	EXP 	reminder: autoDraw = True
+242.0061 	EXP 	fix2: autoDraw = False
+242.6238 	EXP 	Device response: <KeyPress from None: t=242.6221327999956, value=n, duration=None>
+242.6242 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'word': 'bridge', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+242.6291 	DATA 	Keypress: n
+242.6400 	EXP 	fix2: autoDraw = False
+242.6400 	EXP 	test_word: autoDraw = False
+242.6400 	EXP 	reminder: autoDraw = False
+242.6400 	EXP 	test_word: height = np.float64(0.08)
+242.6400 	EXP 	test_word: height = np.float64(0.08)
+242.6400 	EXP 	test_word: height = np.float64(0.08)
+242.6400 	EXP 	test_word: text = 'bridge'
+242.6400 	EXP 	fix2: autoDraw = True
+242.7904 	EXP 	Device response: <KeyPress from None: t=242.6221327999956, value=n, duration=0.15949550000368617>
+243.1235 	INFO 	Keyboard events cleared
+243.1234 	EXP 	test_word: autoDraw = True
+243.1234 	EXP 	reminder: autoDraw = True
+243.1396 	EXP 	fix2: autoDraw = False
+243.7246 	EXP 	Device response: <KeyPress from None: t=243.72260209999513, value=y, duration=None>
+243.7250 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'word': 'violin', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+243.7303 	DATA 	Keypress: y
+243.7397 	EXP 	fix2: autoDraw = False
+243.7397 	EXP 	test_word: autoDraw = False
+243.7397 	EXP 	reminder: autoDraw = False
+243.7397 	EXP 	test_word: height = np.float64(0.08)
+243.7397 	EXP 	test_word: height = np.float64(0.08)
+243.7397 	EXP 	test_word: height = np.float64(0.08)
+243.7397 	EXP 	test_word: text = 'violin'
+243.7397 	EXP 	fix2: autoDraw = True
+243.8741 	EXP 	Device response: <KeyPress from None: t=243.72260209999513, value=y, duration=0.14406220000819303>
+244.2400 	INFO 	Keyboard events cleared
+244.2398 	EXP 	fix2: autoDraw = False
+244.2398 	EXP 	test_word: autoDraw = True
+244.2398 	EXP 	reminder: autoDraw = True
+244.7066 	EXP 	Device response: <KeyPress from None: t=244.6959300999879, value=y, duration=None>
+244.7069 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'word': 'collar', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+244.7119 	DATA 	Keypress: y
+244.7228 	EXP 	fix2: autoDraw = False
+244.7228 	EXP 	test_word: autoDraw = False
+244.7228 	EXP 	reminder: autoDraw = False
+244.7228 	EXP 	test_word: height = np.float64(0.08)
+244.7228 	EXP 	test_word: height = np.float64(0.08)
+244.7228 	EXP 	test_word: height = np.float64(0.08)
+244.7228 	EXP 	test_word: text = 'collar'
+244.7228 	EXP 	fix2: autoDraw = True
+244.8572 	EXP 	Device response: <KeyPress from None: t=244.6959300999879, value=y, duration=0.14515510000637732>
+245.2064 	INFO 	Keyboard events cleared
+245.2063 	EXP 	test_word: autoDraw = True
+245.2063 	EXP 	reminder: autoDraw = True
+245.2234 	EXP 	fix2: autoDraw = False
+246.4233 	EXP 	Device response: <KeyPress from None: t=246.42023019999033, value=n, duration=None>
+246.4237 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'word': 'rabbit', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+246.4292 	DATA 	Keypress: n
+246.4394 	EXP 	fix2: autoDraw = False
+246.4394 	EXP 	test_word: autoDraw = False
+246.4394 	EXP 	reminder: autoDraw = False
+246.4394 	EXP 	test_word: height = np.float64(0.08)
+246.4394 	EXP 	test_word: height = np.float64(0.08)
+246.4394 	EXP 	test_word: height = np.float64(0.08)
+246.4394 	EXP 	test_word: text = 'rabbit'
+246.4394 	EXP 	fix2: autoDraw = True
+246.4898 	EXP 	Device response: <KeyPress from None: t=246.42023019999033, value=n, duration=0.06525220000185072>
+246.9234 	INFO 	Keyboard events cleared
+246.9232 	EXP 	test_word: autoDraw = True
+246.9232 	EXP 	reminder: autoDraw = True
+246.9395 	EXP 	fix2: autoDraw = False
+247.6074 	EXP 	Device response: <KeyPress from None: t=247.59988759999396, value=n, duration=None>
+247.6077 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'word': 'tunnel', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+247.6136 	DATA 	Keypress: n
+247.6232 	EXP 	fix2: autoDraw = False
+247.6232 	EXP 	test_word: autoDraw = False
+247.6232 	EXP 	reminder: autoDraw = False
+247.6232 	EXP 	test_word: height = np.float64(0.08)
+247.6232 	EXP 	test_word: height = np.float64(0.08)
+247.6232 	EXP 	test_word: height = np.float64(0.08)
+247.6232 	EXP 	test_word: text = 'tunnel'
+247.6232 	EXP 	fix2: autoDraw = True
+247.7073 	EXP 	Device response: <KeyPress from None: t=247.59988759999396, value=n, duration=0.10336420001112856>
+248.1070 	INFO 	Keyboard events cleared
+248.1068 	EXP 	test_word: autoDraw = True
+248.1068 	EXP 	reminder: autoDraw = True
+248.1229 	EXP 	fix2: autoDraw = False
+248.8070 	EXP 	Device response: <KeyPress from None: t=248.80474479999975, value=n, duration=None>
+248.8075 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'word': 'glove', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+248.8182 	DATA 	Keypress: n
+248.8230 	EXP 	fix2: autoDraw = False
+248.8230 	EXP 	test_word: autoDraw = False
+248.8230 	EXP 	reminder: autoDraw = False
+248.8230 	EXP 	test_word: height = np.float64(0.08)
+248.8230 	EXP 	test_word: height = np.float64(0.08)
+248.8230 	EXP 	test_word: height = np.float64(0.08)
+248.8230 	EXP 	test_word: text = 'glove'
+248.8230 	EXP 	fix2: autoDraw = True
+248.9742 	EXP 	Device response: <KeyPress from None: t=248.80474479999975, value=n, duration=0.1547093999979552>
+249.3065 	INFO 	Keyboard events cleared
+249.3063 	EXP 	test_word: autoDraw = True
+249.3063 	EXP 	reminder: autoDraw = True
+249.3232 	EXP 	fix2: autoDraw = False
+249.9401 	EXP 	Device response: <KeyPress from None: t=249.93244080001023, value=n, duration=None>
+249.9404 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'word': 'parrot', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+249.9463 	DATA 	Keypress: n
+249.9560 	EXP 	fix2: autoDraw = False
+249.9560 	EXP 	test_word: autoDraw = False
+249.9560 	EXP 	reminder: autoDraw = False
+249.9560 	EXP 	test_word: height = np.float64(0.08)
+249.9560 	EXP 	test_word: height = np.float64(0.08)
+249.9560 	EXP 	test_word: height = np.float64(0.08)
+249.9560 	EXP 	test_word: text = 'parrot'
+249.9560 	EXP 	fix2: autoDraw = True
+250.0566 	EXP 	Device response: <KeyPress from None: t=249.93244080001023, value=n, duration=0.10936799997580238>
+250.4399 	INFO 	Keyboard events cleared
+250.4398 	EXP 	test_word: autoDraw = True
+250.4398 	EXP 	reminder: autoDraw = True
+250.4561 	EXP 	fix2: autoDraw = False
+251.1901 	EXP 	Device response: <KeyPress from None: t=251.17873419998796, value=n, duration=None>
+251.1904 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'word': 'whale', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+251.1954 	DATA 	Keypress: n
+251.2061 	EXP 	fix2: autoDraw = False
+251.2061 	EXP 	test_word: autoDraw = False
+251.2061 	EXP 	reminder: autoDraw = False
+251.2061 	EXP 	test_word: height = np.float64(0.08)
+251.2061 	EXP 	test_word: height = np.float64(0.08)
+251.2061 	EXP 	test_word: height = np.float64(0.08)
+251.2061 	EXP 	test_word: text = 'whale'
+251.2061 	EXP 	fix2: autoDraw = True
+251.2908 	EXP 	Device response: <KeyPress from None: t=251.17873419998796, value=n, duration=0.09752490001847036>
+251.6902 	INFO 	Keyboard events cleared
+251.6899 	EXP 	test_word: autoDraw = True
+251.6899 	EXP 	reminder: autoDraw = True
+251.7061 	EXP 	fix2: autoDraw = False
+252.4234 	EXP 	Device response: <KeyPress from None: t=252.4184077999962, value=y, duration=None>
+252.4237 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'word': 'camel', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+252.4325 	DATA 	Keypress: y
+252.4393 	EXP 	fix2: autoDraw = False
+252.4393 	EXP 	test_word: autoDraw = False
+252.4393 	EXP 	reminder: autoDraw = False
+252.4393 	EXP 	test_word: height = np.float64(0.08)
+252.4393 	EXP 	test_word: height = np.float64(0.08)
+252.4393 	EXP 	test_word: height = np.float64(0.08)
+252.4393 	EXP 	test_word: text = 'camel'
+252.4393 	EXP 	fix2: autoDraw = True
+252.6234 	EXP 	Device response: <KeyPress from None: t=252.4184077999962, value=y, duration=0.1955069999967236>
+252.9395 	INFO 	Keyboard events cleared
+252.9393 	EXP 	fix2: autoDraw = False
+252.9393 	EXP 	test_word: autoDraw = True
+252.9393 	EXP 	reminder: autoDraw = True
+253.7732 	EXP 	Device response: <KeyPress from None: t=253.77222220000112, value=y, duration=None>
+253.7735 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'word': 'stove', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+253.7806 	DATA 	Keypress: y
+253.7893 	EXP 	fix2: autoDraw = False
+253.7893 	EXP 	test_word: autoDraw = False
+253.7893 	EXP 	reminder: autoDraw = False
+253.7893 	EXP 	test_word: height = np.float64(0.08)
+253.7893 	EXP 	test_word: height = np.float64(0.08)
+253.7893 	EXP 	test_word: height = np.float64(0.08)
+253.7893 	EXP 	test_word: text = 'stove'
+253.7893 	EXP 	fix2: autoDraw = True
+253.9406 	EXP 	Device response: <KeyPress from None: t=253.77222220000112, value=y, duration=0.15417940000770614>
+254.2731 	INFO 	Keyboard events cleared
+254.2729 	EXP 	test_word: autoDraw = True
+254.2729 	EXP 	reminder: autoDraw = True
+254.2901 	EXP 	fix2: autoDraw = False
+255.0075 	EXP 	Device response: <KeyPress from None: t=255.00559200000134, value=y, duration=None>
+255.0078 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'word': 'cabin', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+255.0168 	DATA 	Keypress: y
+255.0227 	EXP 	fix2: autoDraw = False
+255.0227 	EXP 	test_word: autoDraw = False
+255.0227 	EXP 	reminder: autoDraw = False
+255.0227 	EXP 	test_word: height = np.float64(0.08)
+255.0227 	EXP 	test_word: height = np.float64(0.08)
+255.0227 	EXP 	test_word: height = np.float64(0.08)
+255.0227 	EXP 	test_word: text = 'cabin'
+255.0227 	EXP 	fix2: autoDraw = True
+255.1740 	EXP 	Device response: <KeyPress from None: t=255.00559200000134, value=y, duration=0.15356159998918884>
+255.5228 	INFO 	Keyboard events cleared
+255.5227 	EXP 	fix2: autoDraw = False
+255.5227 	EXP 	test_word: autoDraw = True
+255.5227 	EXP 	reminder: autoDraw = True
+256.1405 	EXP 	Device response: <KeyPress from None: t=256.1359111999918, value=y, duration=None>
+256.1409 	EXP 	New trial (rep=0, index=72): <Trial 72 (72 in rep 0) data={'word': 'engine', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 72, 'thisTrialN': 72, 'thisRepN': 0}>
+256.1501 	DATA 	Keypress: y
+256.1560 	EXP 	fix2: autoDraw = False
+256.1560 	EXP 	test_word: autoDraw = False
+256.1560 	EXP 	reminder: autoDraw = False
+256.1560 	EXP 	test_word: height = np.float64(0.08)
+256.1560 	EXP 	test_word: height = np.float64(0.08)
+256.1560 	EXP 	test_word: height = np.float64(0.08)
+256.1560 	EXP 	test_word: text = 'engine'
+256.1560 	EXP 	fix2: autoDraw = True
+256.2910 	EXP 	Device response: <KeyPress from None: t=256.1359111999918, value=y, duration=0.15471490001073107>
+256.6565 	INFO 	Keyboard events cleared
+256.6563 	EXP 	fix2: autoDraw = False
+256.6563 	EXP 	test_word: autoDraw = True
+256.6563 	EXP 	reminder: autoDraw = True
+257.3917 	EXP 	Device response: <KeyPress from None: t=257.3907318999991, value=n, duration=None>
+257.3921 	EXP 	New trial (rep=0, index=73): <Trial 73 (73 in rep 0) data={'word': 'fork', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 73, 'thisTrialN': 73, 'thisRepN': 0}>
+257.3971 	DATA 	Keypress: n
+257.4060 	EXP 	fix2: autoDraw = False
+257.4060 	EXP 	test_word: autoDraw = False
+257.4060 	EXP 	reminder: autoDraw = False
+257.4060 	EXP 	test_word: height = np.float64(0.08)
+257.4060 	EXP 	test_word: height = np.float64(0.08)
+257.4060 	EXP 	test_word: height = np.float64(0.08)
+257.4060 	EXP 	test_word: text = 'fork'
+257.4060 	EXP 	fix2: autoDraw = True
+257.5399 	EXP 	Device response: <KeyPress from None: t=257.3907318999991, value=n, duration=0.14395530000911094>
+257.9060 	INFO 	Keyboard events cleared
+257.9058 	EXP 	fix2: autoDraw = False
+257.9058 	EXP 	test_word: autoDraw = True
+257.9058 	EXP 	reminder: autoDraw = True
+258.4737 	EXP 	Device response: <KeyPress from None: t=258.4630872000125, value=n, duration=None>
+258.4742 	EXP 	New trial (rep=0, index=74): <Trial 74 (74 in rep 0) data={'word': 'mirror', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 74, 'thisTrialN': 74, 'thisRepN': 0}>
+258.4846 	DATA 	Keypress: n
+258.4896 	EXP 	fix2: autoDraw = False
+258.4896 	EXP 	test_word: autoDraw = False
+258.4896 	EXP 	reminder: autoDraw = False
+258.4896 	EXP 	test_word: height = np.float64(0.08)
+258.4896 	EXP 	test_word: height = np.float64(0.08)
+258.4896 	EXP 	test_word: height = np.float64(0.08)
+258.4896 	EXP 	test_word: text = 'mirror'
+258.4896 	EXP 	fix2: autoDraw = True
+258.6576 	EXP 	Device response: <KeyPress from None: t=258.4630872000125, value=n, duration=0.1926163999887649>
+258.9900 	INFO 	Keyboard events cleared
+258.9898 	EXP 	fix2: autoDraw = False
+258.9898 	EXP 	test_word: autoDraw = True
+258.9898 	EXP 	reminder: autoDraw = True
+259.5267 	DATA 	Keypress: y
+259.5403 	EXP 	Device response: <KeyPress from None: t=259.5251758999948, value=y, duration=None>
+259.5406 	EXP 	New trial (rep=0, index=75): <Trial 75 (75 in rep 0) data={'word': 'fence', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 75, 'thisTrialN': 75, 'thisRepN': 0}>
+259.5567 	EXP 	fix2: autoDraw = False
+259.5567 	EXP 	test_word: autoDraw = False
+259.5567 	EXP 	reminder: autoDraw = False
+259.5567 	EXP 	test_word: height = np.float64(0.08)
+259.5567 	EXP 	test_word: height = np.float64(0.08)
+259.5567 	EXP 	test_word: height = np.float64(0.08)
+259.5567 	EXP 	test_word: text = 'fence'
+259.5567 	EXP 	fix2: autoDraw = True
+259.7239 	EXP 	Device response: <KeyPress from None: t=259.5251758999948, value=y, duration=0.19521720000193454>
+260.0400 	INFO 	Keyboard events cleared
+260.0399 	EXP 	test_word: autoDraw = True
+260.0399 	EXP 	reminder: autoDraw = True
+260.0566 	EXP 	fix2: autoDraw = False
+260.6900 	EXP 	Device response: <KeyPress from None: t=260.683859199984, value=n, duration=None>
+260.6903 	EXP 	New trial (rep=0, index=76): <Trial 76 (76 in rep 0) data={'word': 'candle', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 76, 'thisTrialN': 76, 'thisRepN': 0}>
+260.7004 	DATA 	Keypress: n
+260.7058 	EXP 	fix2: autoDraw = False
+260.7058 	EXP 	test_word: autoDraw = False
+260.7058 	EXP 	reminder: autoDraw = False
+260.7058 	EXP 	test_word: height = np.float64(0.08)
+260.7058 	EXP 	test_word: height = np.float64(0.08)
+260.7058 	EXP 	test_word: height = np.float64(0.08)
+260.7058 	EXP 	test_word: text = 'candle'
+260.7058 	EXP 	fix2: autoDraw = True
+260.8398 	EXP 	Device response: <KeyPress from None: t=260.683859199984, value=n, duration=0.14956350001739338>
+261.1898 	INFO 	Keyboard events cleared
+261.1897 	EXP 	test_word: autoDraw = True
+261.1897 	EXP 	reminder: autoDraw = True
+261.2062 	EXP 	fix2: autoDraw = False
+261.9240 	EXP 	Device response: <KeyPress from None: t=261.91776010001195, value=n, duration=None>
+261.9245 	EXP 	New trial (rep=0, index=77): <Trial 77 (77 in rep 0) data={'word': 'coin', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 77, 'thisTrialN': 77, 'thisRepN': 0}>
+261.9293 	DATA 	Keypress: n
+261.9396 	EXP 	fix2: autoDraw = False
+261.9396 	EXP 	test_word: autoDraw = False
+261.9396 	EXP 	reminder: autoDraw = False
+261.9396 	EXP 	test_word: height = np.float64(0.08)
+261.9396 	EXP 	test_word: height = np.float64(0.08)
+261.9396 	EXP 	test_word: height = np.float64(0.08)
+261.9396 	EXP 	test_word: text = 'coin'
+261.9396 	EXP 	fix2: autoDraw = True
+262.0907 	EXP 	Device response: <KeyPress from None: t=261.91776010001195, value=n, duration=0.1568869999900926>
+262.4401 	INFO 	Keyboard events cleared
+262.4399 	EXP 	fix2: autoDraw = False
+262.4399 	EXP 	test_word: autoDraw = True
+262.4399 	EXP 	reminder: autoDraw = True
+262.9902 	EXP 	Device response: <KeyPress from None: t=262.98371850000694, value=n, duration=None>
+262.9907 	EXP 	New trial (rep=0, index=78): <Trial 78 (78 in rep 0) data={'word': 'tomato', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 78, 'thisTrialN': 78, 'thisRepN': 0}>
+262.9961 	DATA 	Keypress: n
+263.0060 	EXP 	fix2: autoDraw = False
+263.0060 	EXP 	test_word: autoDraw = False
+263.0060 	EXP 	reminder: autoDraw = False
+263.0060 	EXP 	test_word: height = np.float64(0.08)
+263.0060 	EXP 	test_word: height = np.float64(0.08)
+263.0060 	EXP 	test_word: height = np.float64(0.08)
+263.0060 	EXP 	test_word: text = 'tomato'
+263.0060 	EXP 	fix2: autoDraw = True
+263.1238 	EXP 	Device response: <KeyPress from None: t=262.98371850000694, value=n, duration=0.12376930000027642>
+263.5060 	INFO 	Keyboard events cleared
+263.5058 	EXP 	fix2: autoDraw = False
+263.5058 	EXP 	test_word: autoDraw = True
+263.5058 	EXP 	reminder: autoDraw = True
+264.7738 	EXP 	Device response: <KeyPress from None: t=264.76979610000853, value=y, duration=None>
+264.7742 	EXP 	New trial (rep=0, index=79): <Trial 79 (79 in rep 0) data={'word': 'bench', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 79, 'thisTrialN': 79, 'thisRepN': 0}>
+264.7805 	DATA 	Keypress: y
+264.7892 	EXP 	fix2: autoDraw = False
+264.7892 	EXP 	test_word: autoDraw = False
+264.7892 	EXP 	reminder: autoDraw = False
+264.7892 	EXP 	test_word: height = np.float64(0.08)
+264.7892 	EXP 	test_word: height = np.float64(0.08)
+264.7892 	EXP 	test_word: height = np.float64(0.08)
+264.7892 	EXP 	test_word: text = 'bench'
+264.7892 	EXP 	fix2: autoDraw = True
+264.9571 	EXP 	Device response: <KeyPress from None: t=264.76979610000853, value=y, duration=0.18596760000218637>
+265.2895 	INFO 	Keyboard events cleared
+265.2893 	EXP 	fix2: autoDraw = False
+265.2893 	EXP 	test_word: autoDraw = True
+265.2893 	EXP 	reminder: autoDraw = True
+265.9240 	EXP 	Device response: <KeyPress from None: t=265.9162684000039, value=y, duration=None>
+265.9246 	EXP 	New trial (rep=0, index=80): <Trial 80 (80 in rep 0) data={'word': 'tent', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 80, 'thisTrialN': 80, 'thisRepN': 0}>
+265.9300 	DATA 	Keypress: y
+265.9396 	EXP 	fix2: autoDraw = False
+265.9396 	EXP 	test_word: autoDraw = False
+265.9396 	EXP 	reminder: autoDraw = False
+265.9396 	EXP 	test_word: height = np.float64(0.08)
+265.9396 	EXP 	test_word: height = np.float64(0.08)
+265.9396 	EXP 	test_word: height = np.float64(0.08)
+265.9396 	EXP 	test_word: text = 'tent'
+265.9396 	EXP 	fix2: autoDraw = True
+266.0749 	EXP 	Device response: <KeyPress from None: t=265.9162684000039, value=y, duration=0.15832940000109375>
+266.4393 	INFO 	Keyboard events cleared
+266.4392 	EXP 	fix2: autoDraw = False
+266.4392 	EXP 	test_word: autoDraw = True
+266.4392 	EXP 	reminder: autoDraw = True
+267.0239 	EXP 	Device response: <KeyPress from None: t=267.01889459998347, value=n, duration=None>
+267.0243 	EXP 	New trial (rep=0, index=81): <Trial 81 (81 in rep 0) data={'word': 'pocket', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 81, 'thisTrialN': 81, 'thisRepN': 0}>
+267.0299 	DATA 	Keypress: n
+267.0393 	EXP 	fix2: autoDraw = False
+267.0393 	EXP 	test_word: autoDraw = False
+267.0393 	EXP 	reminder: autoDraw = False
+267.0393 	EXP 	test_word: height = np.float64(0.08)
+267.0393 	EXP 	test_word: height = np.float64(0.08)
+267.0393 	EXP 	test_word: height = np.float64(0.08)
+267.0393 	EXP 	test_word: text = 'pocket'
+267.0393 	EXP 	fix2: autoDraw = True
+267.1571 	EXP 	Device response: <KeyPress from None: t=267.01889459998347, value=n, duration=0.12322580002364703>
+267.5401 	INFO 	Keyboard events cleared
+267.5398 	EXP 	fix2: autoDraw = False
+267.5398 	EXP 	test_word: autoDraw = True
+267.5398 	EXP 	reminder: autoDraw = True
+268.3935 	DATA 	Keypress: y
+268.4064 	EXP 	Device response: <KeyPress from None: t=268.39265379999415, value=y, duration=None>
+268.4068 	EXP 	New trial (rep=0, index=82): <Trial 82 (82 in rep 0) data={'word': 'flag', 'set': 'D', 'condition': 'new', 'corrAns': 'n', 'thisN': 82, 'thisTrialN': 82, 'thisRepN': 0}>
+268.4228 	EXP 	fix2: autoDraw = False
+268.4228 	EXP 	test_word: autoDraw = False
+268.4228 	EXP 	reminder: autoDraw = False
+268.4228 	EXP 	test_word: height = np.float64(0.08)
+268.4228 	EXP 	test_word: height = np.float64(0.08)
+268.4228 	EXP 	test_word: height = np.float64(0.08)
+268.4228 	EXP 	test_word: text = 'flag'
+268.4228 	EXP 	fix2: autoDraw = True
+268.5570 	EXP 	Device response: <KeyPress from None: t=268.39265379999415, value=y, duration=0.15130610001506284>
+268.9065 	INFO 	Keyboard events cleared
+268.9063 	EXP 	test_word: autoDraw = True
+268.9063 	EXP 	reminder: autoDraw = True
+268.9231 	EXP 	fix2: autoDraw = False
+269.5067 	EXP 	Device response: <KeyPress from None: t=269.4994899999874, value=n, duration=None>
+269.5072 	EXP 	New trial (rep=0, index=83): <Trial 83 (83 in rep 0) data={'word': 'basket', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 83, 'thisTrialN': 83, 'thisRepN': 0}>
+269.5163 	DATA 	Keypress: n
+269.5228 	EXP 	fix2: autoDraw = False
+269.5228 	EXP 	test_word: autoDraw = False
+269.5228 	EXP 	reminder: autoDraw = False
+269.5228 	EXP 	test_word: height = np.float64(0.08)
+269.5228 	EXP 	test_word: height = np.float64(0.08)
+269.5228 	EXP 	test_word: height = np.float64(0.08)
+269.5228 	EXP 	test_word: text = 'basket'
+269.5228 	EXP 	fix2: autoDraw = True
+269.6239 	EXP 	Device response: <KeyPress from None: t=269.4994899999874, value=n, duration=0.11983830001554452>
+270.0063 	INFO 	Keyboard events cleared
+270.0061 	EXP 	test_word: autoDraw = True
+270.0061 	EXP 	reminder: autoDraw = True
+270.0229 	EXP 	fix2: autoDraw = False
+270.5916 	DATA 	Keypress: n
+270.6063 	EXP 	Device response: <KeyPress from None: t=270.59109219998936, value=n, duration=None>
+270.6066 	EXP 	New trial (rep=0, index=84): <Trial 84 (84 in rep 0) data={'word': 'robot', 'set': 'A', 'condition': 'aloud', 'corrAns': 'y', 'thisN': 84, 'thisTrialN': 84, 'thisRepN': 0}>
+270.6225 	EXP 	fix2: autoDraw = False
+270.6225 	EXP 	test_word: autoDraw = False
+270.6225 	EXP 	reminder: autoDraw = False
+270.6225 	EXP 	test_word: height = np.float64(0.08)
+270.6225 	EXP 	test_word: height = np.float64(0.08)
+270.6225 	EXP 	test_word: height = np.float64(0.08)
+270.6225 	EXP 	test_word: text = 'robot'
+270.6225 	EXP 	fix2: autoDraw = True
+270.7895 	EXP 	Device response: <KeyPress from None: t=270.59109219998936, value=n, duration=0.18939060001866892>
+271.1061 	INFO 	Keyboard events cleared
+271.1060 	EXP 	test_word: autoDraw = True
+271.1060 	EXP 	reminder: autoDraw = True
+271.1230 	EXP 	fix2: autoDraw = False
+271.6903 	EXP 	Device response: <KeyPress from None: t=271.6762569999846, value=n, duration=None>
+271.6907 	EXP 	New trial (rep=0, index=85): <Trial 85 (85 in rep 0) data={'word': 'castle', 'set': 'B', 'condition': 'mouthed', 'corrAns': 'y', 'thisN': 85, 'thisTrialN': 85, 'thisRepN': 0}>
+271.6986 	DATA 	Keypress: n
+271.7061 	EXP 	fix2: autoDraw = False
+271.7061 	EXP 	test_word: autoDraw = False
+271.7061 	EXP 	reminder: autoDraw = False
+271.7061 	EXP 	test_word: height = np.float64(0.08)
+271.7061 	EXP 	test_word: height = np.float64(0.08)
+271.7061 	EXP 	test_word: height = np.float64(0.08)
+271.7061 	EXP 	test_word: text = 'castle'
+271.7061 	EXP 	fix2: autoDraw = True
+271.8743 	EXP 	Device response: <KeyPress from None: t=271.6762569999846, value=n, duration=0.18176400000811554>
+272.1900 	INFO 	Keyboard events cleared
+272.1899 	EXP 	test_word: autoDraw = True
+272.1899 	EXP 	reminder: autoDraw = True
+272.2063 	EXP 	fix2: autoDraw = False
+272.9234 	EXP 	Device response: <KeyPress from None: t=272.9133820999996, value=y, duration=None>
+272.9238 	EXP 	New trial (rep=0, index=86): <Trial 86 (86 in rep 0) data={'word': 'jacket', 'set': 'E', 'condition': 'new', 'corrAns': 'n', 'thisN': 86, 'thisTrialN': 86, 'thisRepN': 0}>
+272.9346 	DATA 	Keypress: y
+272.9397 	EXP 	fix2: autoDraw = False
+272.9397 	EXP 	test_word: autoDraw = False
+272.9397 	EXP 	reminder: autoDraw = False
+272.9397 	EXP 	test_word: height = np.float64(0.08)
+272.9397 	EXP 	test_word: height = np.float64(0.08)
+272.9397 	EXP 	test_word: height = np.float64(0.08)
+272.9397 	EXP 	test_word: text = 'jacket'
+272.9397 	EXP 	fix2: autoDraw = True
+273.0404 	EXP 	Device response: <KeyPress from None: t=272.9133820999996, value=y, duration=0.12224130000686273>
+273.4395 	INFO 	Keyboard events cleared
+273.4393 	EXP 	fix2: autoDraw = False
+273.4393 	EXP 	test_word: autoDraw = True
+273.4393 	EXP 	reminder: autoDraw = True
+274.0254 	DATA 	Keypress: n
+274.0399 	EXP 	Device response: <KeyPress from None: t=274.02386739998474, value=n, duration=None>
+274.0403 	EXP 	New trial (rep=0, index=87): <Trial 87 (87 in rep 0) data={'word': 'towel', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 87, 'thisTrialN': 87, 'thisRepN': 0}>
+274.0563 	EXP 	fix2: autoDraw = False
+274.0563 	EXP 	test_word: autoDraw = False
+274.0563 	EXP 	reminder: autoDraw = False
+274.0563 	EXP 	test_word: height = np.float64(0.08)
+274.0563 	EXP 	test_word: height = np.float64(0.08)
+274.0563 	EXP 	test_word: height = np.float64(0.08)
+274.0563 	EXP 	test_word: text = 'towel'
+274.0563 	EXP 	fix2: autoDraw = True
+274.1738 	EXP 	Device response: <KeyPress from None: t=274.02386739998474, value=n, duration=0.1478147000016179>
+274.5399 	INFO 	Keyboard events cleared
+274.5398 	EXP 	test_word: autoDraw = True
+274.5398 	EXP 	reminder: autoDraw = True
+274.5562 	EXP 	fix2: autoDraw = False
+275.3071 	EXP 	Device response: <KeyPress from None: t=275.3026487999887, value=n, duration=None>
+275.3076 	EXP 	New trial (rep=0, index=88): <Trial 88 (88 in rep 0) data={'word': 'onion', 'set': 'C', 'condition': 'silent', 'corrAns': 'y', 'thisN': 88, 'thisTrialN': 88, 'thisRepN': 0}>
+275.3158 	DATA 	Keypress: n
+275.3223 	EXP 	fix2: autoDraw = False
+275.3223 	EXP 	test_word: autoDraw = False
+275.3223 	EXP 	reminder: autoDraw = False
+275.3223 	EXP 	test_word: height = np.float64(0.08)
+275.3223 	EXP 	test_word: height = np.float64(0.08)
+275.3223 	EXP 	test_word: height = np.float64(0.08)
+275.3223 	EXP 	test_word: text = 'onion'
+275.3223 	EXP 	fix2: autoDraw = True
+275.5062 	EXP 	Device response: <KeyPress from None: t=275.3026487999887, value=n, duration=0.18784250001772307>
+275.8226 	INFO 	Keyboard events cleared
+275.8225 	EXP 	fix2: autoDraw = False
+275.8225 	EXP 	test_word: autoDraw = True
+275.8225 	EXP 	reminder: autoDraw = True
+276.3905 	EXP 	Device response: <KeyPress from None: t=276.3844909000036, value=y, duration=None>
+276.3910 	EXP 	New trial (rep=0, index=89): <Trial 89 (89 in rep 0) data={'word': 'bottle', 'set': 'F', 'condition': 'new', 'corrAns': 'n', 'thisN': 89, 'thisTrialN': 89, 'thisRepN': 0}>
+276.3963 	DATA 	Keypress: y
+276.4058 	EXP 	fix2: autoDraw = False
+276.4058 	EXP 	test_word: autoDraw = False
+276.4058 	EXP 	reminder: autoDraw = False
+276.4058 	EXP 	test_word: height = np.float64(0.08)
+276.4058 	EXP 	test_word: height = np.float64(0.08)
+276.4058 	EXP 	test_word: height = np.float64(0.08)
+276.4058 	EXP 	test_word: text = 'bottle'
+276.4058 	EXP 	fix2: autoDraw = True
+276.5406 	EXP 	Device response: <KeyPress from None: t=276.3844909000036, value=y, duration=0.15462519999709912>
+276.9063 	INFO 	Keyboard events cleared
+276.9062 	EXP 	fix2: autoDraw = False
+276.9062 	EXP 	test_word: autoDraw = True
+276.9062 	EXP 	reminder: autoDraw = True
+277.7094 	DATA 	Keypress: n
+277.7234 	EXP 	Device response: <KeyPress from None: t=277.70765830000164, value=n, duration=None>
+277.7395 	EXP 	fix2: autoDraw = False
+277.7395 	EXP 	test_word: autoDraw = False
+277.7395 	EXP 	reminder: autoDraw = False
+277.7395 	EXP 	goodbye_text: autoDraw = True
+277.8569 	EXP 	Device response: <KeyPress from None: t=277.70765830000164, value=n, duration=0.13968749999185093>
+278.9238 	EXP 	Device response: <KeyPress from None: t=278.9222337999963, value=space, duration=None>
+278.9250 	DATA 	Keypress: space
+279.0573 	EXP 	Device response: <KeyPress from None: t=278.9222337999963, value=space, duration=0.12348730000667274>
+280.7391 	EXP 	goodbye_text: autoDraw = False
+280.7391 	EXP 	goodbye_text: autoDraw = False
+280.7396 	EXP 	project_production: status = STOPPED
+280.8103 	INFO 	saved data to 'C:\\Users\\Aneri Upadhyay\\OneDrive\\Desktop\\PSY310_Project\\data\\test_project_production_2026-11-23_00h28.43.536.csv'
+280.8179 	INFO 	saved data to C:\Users\Aneri Upadhyay\OneDrive\Desktop\PSY310_Project\data\test_project_production_2026-11-23_00h28.43.536.psydat
+281.9753 	INFO 	Stopping keyboard key buffers.
